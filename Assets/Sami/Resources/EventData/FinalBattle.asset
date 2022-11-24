@@ -1,0 +1,1292 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: FinalBattle
+  m_EditorClassIdentifier: 
+  eventId: 22
+  actionPoints: 3
+  boolListIndex: 34
+  eventLocation: 9
+  repeatable: 0
+  mandatory: 1
+  done: 0
+  description: Abandoned Factory
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: 851fef1ddab66bf459263bdcd79fbaa4, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: You approach the ruined and abandoned factory. You see a faint light glowing
+      from within the factory. According to your sources, you should find Valerie
+      here. You cannot shake the feeling that this is it, you either solve the case
+      or die trying.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 2
+    previousObjectIndex: 0
+    type: 0
+    text: With no one on guard you easily slip into the building. Following the sounds
+      you end up in a big hall, in the center of which is Valerie. I step out from
+      the shadows.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CValerie. Long time no see.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: She looks at you and it's clear she was expecting someone else.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 5
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CHello, detective. What brings you here? I was expecting
+      someone else, the Prince.\""
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Valerie: \u201CHello, detective. What brings you here? I was expecting
+      someone else, the Prince.\""
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 6
+      choiceText: "\u201CI came to put an end to this madness!\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 7
+      choiceText: "\u201CI came for that cross of yours!\u201D (Mental + Awareness
+        3)"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 3
+      boolIndex: 0
+      attribute: 2
+      skill: 10
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 8
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CMadness? No no, there\u2019s no madness, only proper, well
+      deserved revenge! And you will not stop me!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 8
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CThis little ole thing? A mere keepsake\u2026\u201D"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 37
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: (Shit...)
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 9
+      choiceText: "\u201CThis cross of yours...\u201D"
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 37
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 17
+      choiceText: "\u201CListen, Valerie, you have to trust me. Forget this revenge.\u201D"
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 38
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 19
+      choiceText: "\u201CI have to stop you no matter the cost!\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 10
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CYou\u2019re still stuck on it? What\u2019s so fascinating
+      about it to you?"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Valerie: \u201CYou\u2019re still stuck on it? What\u2019s so fascinating
+      about it to you?"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 11
+      choiceText: "\u201CIt\u2019s a detonator for one hell of a bomb.\u201D"
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 31
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 13
+      choiceText: "\u201CIt\u2019s legendary weapon, one you should not wield.\u201D"
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 25
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 15
+      choiceText: "\u201CIt\u2019s just a cross, anything else\u2019s just a myth.\u201D"
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 26
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 19
+      choiceText: '"No matter what, I''m going to stop you even if it''s the last
+        thing I do!"'
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 12
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CHaha! That\u2019s one way to phrase it.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 17
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CNo I mean it is an actual bomb. One that explodes, ruining
+      people and buildings alike! Its not some old piece of wood. Trust me.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 14
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CIt is a legendary weapon but you are no one to stop me
+      from wielding it!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 17
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CTrust me, it\u2019s dangerous not only to but to the entire
+      city!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 16
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CHaha, you believe what you will. I will still get my revenge.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 17
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CNo, it\u2019s just a cross, trust me! Forget this whole thing
+      before anyone gets hurt.\u201D "
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 18
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CTrust you? What do you mean? You don\u2019t understand!
+      I need this!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: (Damn... what now?)
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 19
+      choiceText: "\u201CIn that case I have no choice but to strike you down.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 55
+      choiceText: "\u201CI know your pain\u2026\u201D"
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 14
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 60
+      choiceText: "\u201CI think I have an idea why you feel like you have to do
+        this.\u201D (Social + Insight 6)"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 6
+      boolIndex: 0
+      attribute: 0
+      skill: 11
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 20
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CDon\u2019t touch me! I have the weapon and I will use it,
+      even against you if need be!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Valerie: \u201CDon\u2019t touch me! I have the weapon and I will use it,
+      even against you if need be!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 21
+      choiceText: Leap forward and pry the weapon off from her hands. (Physical +
+        Brawl 6)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 6
+      boolIndex: 0
+      attribute: 1
+      skill: 4
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 44
+      choiceText: Slowly walk towards her.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 22
+    previousObjectIndex: 0
+    type: 0
+    text: You leap towards Valerie and pry the cross off of her hands. The cross
+      flies away, now between you and Valerie.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 23
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CStand aside or I will make you!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 24
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CNo, stop this before you get hurt!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 25
+    previousObjectIndex: 0
+    type: 0
+    text: Valerie focuses and you see a ball of energy forming onto her hand. With
+      one swift motion she doubles the size of the ball and throws it at you.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: Valerie focuses and you see a ball of energy forming onto her hand. With
+      one swift motion she doubles the size of the ball and throws it at you.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 26
+      choiceText: Resist the spell (Mental + Occult 6)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 6
+      boolIndex: 0
+      attribute: 2
+      skill: 8
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 49
+      choiceText: "You\u2019re unable to resist the spell\u2026"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 27
+    previousObjectIndex: 0
+    type: 0
+    text: "You feel as if you were torn apart from the inside. You feel blood rushing
+      around in your body with no regulations. You focus your mind on taming your
+      own blood. You focus on your veins, force them to close and keep the blood
+      within. You feel like fainting, but you manage to fend Valerie\u2019s spell
+      off."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 28
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CIt\u2019s no use, I will not let you use that weapon, it\u2019s
+      not what you think it is!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 29
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CI DON\u2019T CARE! I must have my revenge. I need it, it\u2019s
+      all I have, all I\u2019ve had for a very long time! I have nothing if I don\u2019t
+      get this!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 30
+    previousObjectIndex: 0
+    type: 0
+    text: She pulls out two daggers with twisted ends, designed for tearing up the
+      flesh. She jumps at you with feral rage.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: She pulls out two daggers with twisted ends, designed for tearing up the
+      flesh. She jumps at you with feral rage.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 31
+      choiceText: Fend her off (Physical + Brawl 5)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 1
+      skill: 4
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 51
+      choiceText: You don't have the strength
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 32
+    previousObjectIndex: 0
+    type: 0
+    text: "Usually you\u2019d have no problems fending off a knife attack from someone
+      like her, but Valerie\u2019s filled with feral rage and desperation. It gives
+      her strength but also makes her unpredictable. The two of you struggle on the
+      ground with her knives scraping on the skin of your chest. Finally, you manage
+      to kick her away."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 33
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CValerie please, stop this!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 34
+    previousObjectIndex: 0
+    type: 0
+    text: "There\u2019s no reply, Valerie\u2019s a mere sobbing lump on the ground.
+      You pick up the cross and the knives, hiding them to the depths of your jacket."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 35
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CYou\u2019ve taken my life\u2019s purpose from me, there\u2019s
+      nothing left for me.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 36
+    previousObjectIndex: 0
+    type: 0
+    text: Valerie just sitting there, on the floor of this once busy factory, like
+      a helpless child. You ponder what to do with her.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: Valerie just sitting there, on the floor of this once busy factory, like
+      a helpless child. You ponder what to do with her.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 37
+      choiceText: Turn her in for the authorities
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 41
+      choiceText: Kill her
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 38
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CThat is not true. Now your life can truly begin anew, free
+      of the pain and suffering revenge brings with it.\""
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 39
+    previousObjectIndex: 0
+    type: 0
+    text: "You offer her your hand. She looks at it, then at you before taking the
+      hand and standing up. You don\u2019t put her in cuffs, it\u2019s not necessary."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 40
+    previousObjectIndex: 0
+    type: 0
+    text: "The two of you walk away from the factory and you turn her in to the authorities
+      along with the cross. Her trial will be hard and punishment harsh, but it\u2019s
+      the right thing to do."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 200
+    previousObjectIndex: 0
+    type: 0
+    text: "You walk back to the streets, there are bound to be more cases for a detective
+      such as yourself\u2026"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 48
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 42
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CVery well, if you insist you have nothing left for you, why
+      bother sticking around?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 43
+    previousObjectIndex: 0
+    type: 0
+    text: "Her eyes widen in terror as you walk towards her. You take out one of
+      her own knives and kneel beside her. She doesn\u2019t even try to resist as
+      you slice her head off."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 40
+    previousObjectIndex: 0
+    type: 0
+    text: "You drop the now bloodied knife next to the pile of ashes and leave the
+      factory. You report to the authorities what has happened and turn in the cross.
+      Some question your methods, how she should\u2019ve received a trial and a judgement,
+      but you know better. Now she\u2019s at peace."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 45
+    previousObjectIndex: 0
+    type: 0
+    text: You take a few carefully calculated steps to close the gap between the
+      two of you. She notices this.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 46
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CI told you I would use this weapon if I had to and now
+      you will be the first to see its might!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 47
+    previousObjectIndex: 0
+    type: 0
+    text: "She presses something on the cross and you can feel the ground shaking. 
+      Before you can do anything, you feel incredible heat, unlike you\u2019ve ever
+      felt, seen or imagined. A huge explosion levels everything around you and Valerie."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 48
+    previousObjectIndex: 0
+    type: 0
+    text: "There\u2019s nothing left of you, Valerie or the factory. There\u2019s
+      little to no traces left of most of the city downtown. News outlets speak of
+      millions of casualties, with millions more injured, many for life, both human
+      and kindred."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 47
+    previousObjectIndex: 0
+    type: 0
+    text: "Generations from now will remember, when a nuclear warhead exploded in
+      the middle of the city. No one has any idea how the bomb even got there to
+      begin with. No human, that is\u2026"
+    isItalic: 1
+    hasReward: 1
+    rewardType: 6
+    rewardSkill: 0
+    rewardValue: 5
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 50
+    previousObjectIndex: 0
+    type: 0
+    text: "You feel as if you were torn apart from the inside. You feel blood rushing
+      around in your body with no regulations. You focus your mind on taming your
+      own blood. You focus on your veins, forcing them to keep the blood where it\u2019s
+      supposed to be."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 49
+    previousObjectIndex: 0
+    type: 0
+    text: "Try as you might, the blood keeps rushing and flowing all over the place
+      and you feel your consciousness fading. In your last moments of existence you
+      hear Valerie laughing maniacally and then, nothing. You\u2019re splatter to
+      the walls and floors of this forgotten factory\u2026"
+    isItalic: 1
+    hasReward: 1
+    rewardType: 6
+    rewardSkill: 0
+    rewardValue: 5
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 52
+    previousObjectIndex: 0
+    type: 0
+    text: "Usually you\u2019d have no problems fending off a knife attack from someone
+      like her, but Valerie\u2019s filled with feral rage and desperation. It gives
+      her strength but also makes her unpredictable."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 53
+    previousObjectIndex: 0
+    type: 0
+    text: "The two of you struggle on the ground with her knives scraping on the
+      skin of your chest. She\u2019s relentless and you feel your powers draining
+      and the blades drawing closer to your skin."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 54
+    previousObjectIndex: 0
+    type: 0
+    text: Then you feel it, the blade invading your insides, the blood rushing to
+      the outside. The pain is unimaginable. You feel the second blade also digging
+      into you. Weakened by the pain, Valerie strikes you again and again.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 53
+    previousObjectIndex: 0
+    type: 0
+    text: You can feel the hole in your chest growing and your consciousness fading
+      by the hit. You see your own blood pooling next to you as you mind leaves this
+      place.
+    isItalic: 1
+    hasReward: 1
+    rewardType: 6
+    rewardSkill: 0
+    rewardValue: 5
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 56
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CYeah... so you say. We\u2019ve been through that. But if
+      you truly did you wouldn\u2019t be trying to stop me. My partner and I- We
+      entered unlife together. We were supposed to share it, forever, or at least
+      die together if we had to. The Prince HAS to die. And I think you know why.
+      Please, PLEASE don\u2019t stand in my way. I don\u2019t want to hurt you.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Valerie: \u201CYeah... so you say. We\u2019ve been through that. But if
+      you truly did you wouldn\u2019t be trying to stop me. My partner and I- We
+      entered unlife together. We were supposed to share it, forever, or at least
+      die together if we had to. The Prince HAS to die. And I think you know why.
+      Please, PLEASE don\u2019t stand in my way. I don\u2019t want to hurt you.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 57
+      choiceText: "\u201CVal.. It\u2019s not worth it. I don\u2019t\u2026 I don\u2019t
+        give a rat\u2019s ass about the Prince or what happens to her. But I don\u2019t
+        want to see you throw everything away for the sake of THIS. I\u2026 I don\u2019t
+        want to lose YOU, Valerie.\u201D"
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 41
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 65
+      choiceText: "\u201CValerie, please believe me. Throwing everything away for
+        the sake of revenge\u2026 It\u2019s not worth it. We both know that.\u201D"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 6
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 72
+      choiceText: "\u201DValerie\u2026 Won\u2019t you please stop\u2026 For my sake?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 58
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CYou know things can be better. Valerie\u2026 I love you.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 59
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie\u2019s grip on the cross seems to loosen slightly. Her face betrays
+      a hint of indecisiveness."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 60
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201DWe can\u2026 We can get away from here. From this city. We
+      can go anywhere but here. Never hear of the Prince again. Revenge won\u2019t
+      bring your partner back. Nothing will. But we have something else, something
+      entirely new. Won\u2019t you see where that road goes with me?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 61
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201DMy vengeance is all I\u2019ve lived for for a long, long
+      time. What am I without it?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 62
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201DThat\u2019s what I\u2019d like to find out. By your side.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 63
+    previousObjectIndex: 0
+    type: 0
+    text: "The cross falls from Valerie\u2019s hand, clattering onto the ground.
+      She walks over to you. Her hand softly brushes against your cheek. Without
+      a word, you walk out of the factory together."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: "You start preparing for a long journey without a destination. The destination
+      doesn\u2019t matter. You will be making the journey together, and every other
+      detail feels insignificant in comparison."
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 48
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 65
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201DIt was her, wasn\u2019t it? The Prince? And your partner?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 56
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201DFigured that out, did you? Then you understand why I have
+      to do this. You\u2019re a smart guy. Just leave me to it.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 67
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201DI DON\u2019T know that. And I never will unless I do this.
+      Just let me fucking have this!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 68
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201DThere\u2019s no way you\u2019re coming out of this alive if
+      you go through with it. You know that. What does revenge matter if you\u2019re
+      not here to enjoy it? You\u2019ll plunge the entire region into chaos if you
+      destroy the Prince.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 69
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201DCountless deaths, caused by nothing but you. How many more
+      will end just like you, BECAUSE of you? Is that the kind of person you want
+      to become?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 70
+    previousObjectIndex: 0
+    type: 0
+    text: Valerie stares at you intently, the cross still tightly clutched in her
+      hand. You stare back, frozen. Her expression is impossible to read. You stare
+      at one another for what feels like hours. Had you the need to breathe, the
+      air would feel heavy and sticky with tension. Slowly, she eases up.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 71
+    previousObjectIndex: 0
+    type: 0
+    text: The cross clatter across the ground as it falls from her grip, as she falls
+      down on her knees, spent from this whole spectacle. Her fate is in your hands.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 36
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201DWhat else is there for me?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 73
+    previousObjectIndex: 0
+    type: 0
+    text: Valerie smiles at you, and starts walking towards you, her gait swinging
+      as she approaches. Hand on your shoulder she leans to whisper in your ear.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 74
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CWhat you\u2019re saying is\u2026 All that stands in my
+      way\u2026 is you?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 73
+    previousObjectIndex: 0
+    type: 0
+    text: Her lips press softly against your cheek as you feel the blood in your
+      skull begin to boil. As your body collapses to the floor, the last thing your
+      eyes see before their light winks out is the back of the woman you loved as
+      she walks away, the cross still in her hand. She turns to look at you one last
+      time, wearing a smile full of pity on her face, as your vision drifts to an
+      endless darkness, dragging your consciousness with it.
+    isItalic: 1
+    hasReward: 1
+    rewardType: 6
+    rewardSkill: 0
+    rewardValue: 5
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}

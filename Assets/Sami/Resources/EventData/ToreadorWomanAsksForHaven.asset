@@ -1,0 +1,713 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: ToreadorWomanAsksForHaven
+  m_EditorClassIdentifier: 
+  eventId: 13
+  actionPoints: 2
+  boolListIndex: 21
+  eventLocation: 11
+  repeatable: 0
+  mandatory: 1
+  done: 0
+  description: Toreador Woman asks for help
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: 71efc820f8940fc408da9ae0a454b618, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: (I was not expecting to get an email from Fayette of all people, Camarilla
+      not being a fan of all things electric.)
+    isItalic: 0
+    hasReward: 1
+    rewardType: 7
+    rewardSkill: 0
+    rewardValue: 50
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 2
+    previousObjectIndex: 0
+    type: 0
+    text: "(Her tone was really distressed, I should prepare for anything, especially
+      with the unexpected visitors visiting my haven the other night\u2026)"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 46
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 0
+    text: The guard on the door is not the same as the other night, but they let
+      you in before you say a word. Knowing the way, you walk to the same room as
+      last time. You find the Toreador standing before the full height window in
+      the back of the room. Through her reflection on the window you can see the
+      worry on her face.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: She sees you through the reflection and runs towards you, throwing herself
+      into your arms. She speaks into your shoulder.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 5
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CFull glad I am to see you here!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Fayette: \u201CFull glad I am to see you here!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 6
+      choiceText: Hold her in your arms.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 11
+      choiceText: Take a step back.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 6
+      choiceText: Sit her down onto the lounge chair.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 7
+    previousObjectIndex: 0
+    type: 0
+    text: "You:  \u201CI came as quickly as I could after I received your message.
+      What\u2019s the state of things?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 8
+    previousObjectIndex: 0
+    type: 0
+    text: "Her reply comes in the form of a tight hug. Moments pass before she pulls
+      back. She\u2019s beyond worried."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 9
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CRemember when I told you I feel unsafe in this city? Well
+      I just received a word that my haven\u2019s been broken into and absolutely
+      trashed. Little was taken but even less survived the carnage! I didn't know
+      who else to turn to.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 10
+    previousObjectIndex: 0
+    type: 0
+    text: "You study her face. It\u2019s clear she\u2019d be crying were she able
+      to."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "You study her face. It\u2019s clear she\u2019d be crying were she able
+      to."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 14
+      choiceText: "\u201CWhat has happened? Start from the very beginning.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 20
+      choiceText: "\u201CWhat do you expect me to do?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 12
+      choiceText: (Could she be altering the truth?) (Mental + Insight 6)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 6
+      boolIndex: 0
+      attribute: 2
+      skill: 11
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 8
+    previousObjectIndex: 0
+    type: 0
+    text: "Instinctively you step back from her hold. You see utter disappointment
+      flash on her face before she collects herself casts a fa\xE7ade of confidence."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 13
+    previousObjectIndex: 0
+    type: 0
+    text: "(Fayette\u2019s worry and distress, while visible and well-acted, is not
+      actually real\u2026 interesting\u2026 Cannot help but to wonder what she\u2019s
+      hiding. I should keep this knowledge for myself for now, maybe she makes more
+      mistakes.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "(Fayette\u2019s worry and distress, while visible and well-acted, is not
+      actually real\u2026 interesting\u2026 Cannot help but to wonder what she\u2019s
+      hiding. I should keep this knowledge for myself for now, maybe she makes more
+      mistakes.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 14
+      choiceText: "\u201CWhat has happened? Start from the very beginning.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 20
+      choiceText: "\u201CWhat do you expect me to do?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 15
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CDue to having businesses in this neighborhood I haven\u2019t
+      been to my haven for a good while. Few hours ago, however, I received a message
+      telling me someone\u2019s broken into my haven. I hurried to see the damage
+      for myself and there\u2019s little to nothing to salvage there, most everything
+      is either broken or stolen.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 16
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CDo you have any idea, evidence based or otherwise, who could
+      be behind this?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 17
+    previousObjectIndex: 0
+    type: 0
+    text: She shakes her head but seems to get lost in her head. Soon enough she
+      lifts her head to look straight at me, face yet again filled with worry.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 18
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CThere were plenty of crosses and other such religious mumbo
+      jumbo scattered around. Are the religious hunters after me? What have I done?
+      What can I do?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 19
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CI\u2026 don\u2019t know yet. Do not disturb the crime scene,
+      I\u2019ll investigate it as soon as I can. Is there anything else you can tell
+      me, or something specific you need?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 24
+    previousObjectIndex: 0
+    type: 0
+    text: "She looks into the fireplace as if she\u2019d expect to find the answers
+      from the dance of the flames. She lets out a heavy sight and turns around.
+      She looks deep into your eyes as she speaks."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 21
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CFuck if I know, you\u2019re the detective here! Figure
+      out who\u2019s behind this and put a stop to them!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 22
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CCalm down, there\u2019s no use in getting worked up. Is there
+      anything of use you can tell me?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 23
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CThere were plenty of crosses and other such religious mumbo
+      jumbo scattered around, but I can\u2019t have attracted the attention of those
+      religious freaks, it just makes no sense!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 19
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201C\u2026 I see. By any means do not disturb the crime scene,
+      I\u2019ll investigate it as soon as I can. Is there anything else you can tell
+      me, or something specific you need?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 25
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CIt pains me greatly to ask, but may I please stay in your
+      haven until things calm down? I understand the risks involved and the lack
+      of reasons you may have for going this far to help me out, but I beg of you,
+      otherwise my life is forfeit.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: (Her face is the definition of seriousness and determination. She seems
+      to be convinced that the only way for her to survive is by getting an asylum
+      from my haven.)
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: (Her face is the definition of seriousness and determination. She seems
+      to be convinced that the only way for her to survive is by getting an asylum
+      from my haven.)
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 27
+      choiceText: "\u201CYes, of course. It\u2019s the least I can do to guarantee
+        your well-being.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 35
+      choiceText: "\u201CI don\u2019t trust, or anyone for that matter, enough for
+        them to be let into my haven.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 28
+    previousObjectIndex: 0
+    type: 0
+    text: "The relief on Fayette\u2019s face is immeasurable. She leaps in to hug
+      you again, before she quickly gathers herself and steps back. You sense slight
+      embarrassment on her face."
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 22
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 29
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CAhem\u2026 My apologies for such an emotional display.
+      Detective such as yourself must have no idea how relieved a civilian such as
+      me can be when they hear they\u2019re safe from the evils and maniacs of this
+      society.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 30
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201COf course, such a reaction is only understandable. I however
+      have to advise you to still be cautious and alert, my haven\u2019s been visited
+      by some unknown visitors as well, although they didn\u2019t cause a mess or
+      break anything, nor did they leave much in the way of evidence.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 31
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CYes, of course, but the mere knowledge of the haven being
+      yours is of great comfort.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 32
+    previousObjectIndex: 0
+    type: 0
+    text: "The two of you make arrangements for Fayette\u2019s temporary move to
+      your haven. You give her the address and teach how to avoid the traps you\u2019ve
+      set up. She promises to be extra careful and not leave the haven without utmost
+      reasons."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 33
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CI cannot thank you enough, you\u2019ve saved this girl's
+      life!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 34
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CThink nothing of it, it is part of my duty after all. If you
+      need anything, do not hesitate to call me.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: "She nods and starts packing her essential equipment she\u2019ll need in
+      your haven. You leave her to it and make your way back to the streets. You
+      can only hope you made the right decision\u2026"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 36
+    previousObjectIndex: 0
+    type: 0
+    text: Her face shifts from confidence to worry to utter terror. She walks to
+      the other side of the room before burying her face in her hands.
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 23
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 37
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CThat\u2019s it then, you\u2019ve just officially signed
+      my death penalty. Hope you\u2019re fucking happy!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 38
+    previousObjectIndex: 0
+    type: 0
+    text: She picks up a decorative pillow and throws it at me. I catch it with ease
+      and gently put it down onto the chair.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 39
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CI\u2019m sorry. My haven\u2019s been intruded as well and I
+      simply cannot risk bringing anyone there, especially on times like these. Is
+      there anything else I could do? More guards, perhaps?\u201D\r"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 40
+    previousObjectIndex: 0
+    type: 0
+    text: She looks at me, her face full of disbelief as she collapses to the nearby
+      couch.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 41
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CNo. Just\u2026 go, for I\u2019ve got a death to prepare
+      to. We won\u2019t most likely ever meet again, Detective, I do hope you realise
+      that and cherish the time we spent together like I do."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: "You cannot do anything but nod and leave. You hope she\u2019s being dramatic
+      and that her guards are capable of keeping her safe. You make your way back
+      to the streets hoping you made the right decision\u2026"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}

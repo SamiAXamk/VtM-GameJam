@@ -1,0 +1,868 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: VisitYourHaven
+  m_EditorClassIdentifier: 
+  eventId: 18
+  actionPoints: 1
+  boolListIndex: 50
+  eventLocation: 0
+  repeatable: 1
+  mandatory: 1
+  done: 1
+  description: Spend time in your haven
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: 93250ef213bae0d4580c9615e0f7ac50, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: "(So\u2026 Here I am, home, sweet home. This place isn\u2019t much, but
+      I may make myself useful while I\u2019m here anyway.)\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 21
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 2
+    previousObjectIndex: 0
+    type: 1
+    text: '(Still, feels good to have a moment for myself.)
+
+'
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 2
+      choiceText: "I could\u2026"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 23
+      choiceText: "Hmm\u2026 wait a second\u2026"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 27
+      choiceText: "Actually, don\u2019t have that much time right now. I should get
+        back to the streets. "
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "(I could\u2026\r)\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 3
+      choiceText: "Clear up this place a bit, maybe I\u2019ll be able to make it
+        useful."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 11
+      choiceText: Check my computer.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 15
+      choiceText: Inspect the information I have.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 20
+      choiceText: Prepare myself for the job.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 27
+      choiceText: Rest a bit, and go back to work, there is not much I can do here.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Ugh\u2026 It would take ages to clean this place and I don\u2019t have
+      much time for renovations, but a little upgrade won\u2019t hurt.\r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 4
+      choiceText: Prepare defenses.
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 18
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 7
+      choiceText: "(Social + Resource 5) I want a big fancy coffin right now! Some
+        kitsch won\u2019t hurt."
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 0
+      skill: 16
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 9
+      choiceText: 'Get books from the local library. '
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 3
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 27
+      choiceText: "Well\u2026 There is not much to be done right now. Check that
+        all my stuff is in the right places and leave. "
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "In this time and age a gun under a pillow is not enough. Luckily even
+      with a little effort one might get basic surveillance stuff, a better lock,
+      and maybe even a real motion sensor! All this stuff comes with a price though\u2026\r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 5
+      choiceText: "(Mental + Resource 4) Your unlife is not something to spare on\u2026"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 16
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 6
+      choiceText: Eh. This place is good enough.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: 'Good, now you can sleep deeply during days without a worry... Not counting
+      giant ticking bomb under the city.  '
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 35
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: Well, this place is not going to become the Fort Knox anyway. Better spend
+      money on something else.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 8
+    previousObjectIndex: 0
+    type: 0
+    text: "A special oak veneer, elegant inlay paneling to the sides and ends. The
+      Majestic Black comes with a soft brushed-velvet interior and is actually the
+      most expensive coffin a Kindred might buy in this city\u2026 \r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: "Not sure though how exactly it will help during the current investigation\u2026
+      But c\u2019mon! This life is too long to spend it on dirty mattresses!\r\n"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 42
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: 'Book of Nod belongs to the book collection of any civilized Kindred. 
+      Nevertheless, the library you heard certainly possesses rarer books and scriptures,
+      especially the ones concerning local cults and traditions. This may be a good
+      investment.
+
+'
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 10
+      choiceText: '(Men + Res 4) Get the books. '
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 16
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 26
+      choiceText: "Well\u2026 Actually\u2026 I\u2019m a bit short on the budget\u2026"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: "If you\u2019ll have some spare time it might be a good idea to check the
+      books you acquired. \r\n"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 36
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Today\u2019s Camarilla is not excited about Kindred using the Net, but
+      your job requires stepping outside of the boundaries. Let\u2019s see\u2026"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 12
+      choiceText: "Traces of radiation underground\u2026 "
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 27
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 13
+      choiceText: "Lucretia Fayette: I need your help\u2026"
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 19
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 14
+      choiceText: No new emails.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 27
+    previousObjectIndex: 0
+    type: 0
+    text: "In recently abandoned subway station little traces of radioactive substances
+      were noticed\u2026 police are investigating connection to widely know terrorist
+      organization\u2026 \r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: "I don\u2019t really know where to start\u2026 It seems those guys who
+      murdered Dylan, are coming after me. They attacked me while I was hunting,
+      and I barely managed to escape. I don\u2019t feel safe anywhere. We need to
+      meet.\r\n"
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 21
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 25
+    previousObjectIndex: 0
+    type: 0
+    text: "Well, there doesn't seem to be important emails right now\u2026 Let\u2019s
+      see what else is going on\u2026 Are there any interesting uploads\u2026 Wow,
+      there is a kitten in a pirate dress!"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: 'Checking alibis, connecting information, searching for new evidence, this
+      is your job and something you get paid for. No matter how little time you have,
+      you need to inspect acquired info.  '
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 16
+      choiceText: Investigate evidences.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 17
+      choiceText: Check fresh crime reports.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 18
+      choiceText: (036) Read literature about local traditions.
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 36
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 19
+      choiceText: (036) Read religious scriptures.
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 36
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: "You again go through all the evidence you have, write notes, read books
+      about criminology, but you still feel that some important piece slips from
+      you again\u2026 You may not have solved this case yet, but you advance a bit.
+      \r\n"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 0
+    rewardSkill: 5
+    rewardValue: 1
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: Child abducted in the East-City. Three teens gruesomely murdered in New
+      Chicago. Dozens of reports of illegal immigration and drug trafficing. Nothing
+      connected to your case, but some useful information still slips through.
+    isItalic: 1
+    hasReward: 1
+    rewardType: 0
+    rewardSkill: 12
+    rewardValue: 1
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: "Academic literature on history and culture is hard to swallow with all
+      the terminology, symbolism and allegories. You would think such information
+      is not required right now, but surprisingly this mystery may be connected to
+      human traditions. \r"
+    isItalic: 1
+    hasReward: 1
+    rewardType: 0
+    rewardSkill: 6
+    rewardValue: 1
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: "Most of the information is really just superstitious nonsense, outdated
+      beliefs, human views on vampirism and occult. As usual though these silly ideas
+      are based on real events\u2026 You might learn something.\r\n"
+    isItalic: 1
+    hasReward: 1
+    rewardType: 0
+    rewardSkill: 7
+    rewardValue: 1
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: Every night you spend in the city, you learn that your abilities and skills
+      are pushed to the limit. A single mistake, bad decision might be the price
+      for your life and lives of the rest of the citizens, both human and Kindred.
+      You have to be prepared for anything.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 21
+      choiceText: Do physical training.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 3
+      boolIndex: 0
+      attribute: 1
+      skill: 4
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 22
+      choiceText: "(Social + Resources 3) Get less legal \u201Ctools\u201D."
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 3
+      boolIndex: 0
+      attribute: 0
+      skill: 16
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 28
+      choiceText: I may be able to create a false id for Second Inquisition Base.
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 28
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 26
+      choiceText: I think I have everything I need. Time to move on.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 29
+    previousObjectIndex: 0
+    type: 1
+    text: "They say a vampiric body may not be trained and improved the way human
+      is, but training is not only about gaining mass, it\u2019s about coordination,
+      connection and balance. If you are good enough you may improve.\r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 30
+      choiceText: (Physical + Athletic 4) Train your fighting skills.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 1
+      skill: 5
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 26
+      choiceText: Maybe not today...
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: 'In your job you already had to step outside of the laws of Kindred. So
+      why care so much about the laws of the government? Lockpicks, tracing devices
+      are illegal, but extremely useful.
+
+'
+    isItalic: 1
+    hasReward: 1
+    rewardType: 0
+    rewardSkill: 2
+    rewardValue: 1
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Something\u2019s not right\u2026\r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 26
+      choiceText: "Ugh. This city is getting me paranoid. Everything seems to be\u2026
+        fine? "
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 24
+      choiceText: "(Mental + Investigation 4) Hell no, somebody broke in\u2026"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 5
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: "Traces are everywhere, windows are opened, documents are turned around.
+      It seems somebody was searching for info about me but then left. I should be
+      extremely cautious\u2026\r\n"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 20
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: '(Uhm. Well, actually I should get back to work, there is still a bomb
+      under the city.)
+
+'
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: (So, my business here is done, and I need to get back to the city.)
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: "(The article just goes on\u2026 Most importantly I got intel and know
+      how to proceed forward. Location is marked on the map.)\r\n"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 15
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: 'I have some information on how their base runs, I may be able to fake
+      id.
+
+'
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 29
+      choiceText: "(Mental + Larceny 4) It may not even be that hard\u2026"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 2
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 26
+      choiceText: Well, actually never mind.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: 'Done! This will help a lot.
+
+
+'
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 29
+    choices:
+    - nextObjectIndex: 29
+      choiceText: "(Mental + Larceny 4) It may not even be that hard\u2026"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 2
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 26
+      choiceText: Well, actually never mind.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: Even with a little practise you may achieve results, your combat skills
+      are improved.
+    isItalic: 1
+    hasReward: 1
+    rewardType: 0
+    rewardSkill: 4
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 29
+      choiceText: "(Mental + Larceny 4) It may not even be that hard\u2026"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 2
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 26
+      choiceText: Well, actually never mind.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}

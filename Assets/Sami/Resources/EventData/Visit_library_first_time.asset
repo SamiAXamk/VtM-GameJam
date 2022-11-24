@@ -1,0 +1,448 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: Visit_library_first_time
+  m_EditorClassIdentifier: 
+  eventId: 6
+  actionPoints: 2
+  boolListIndex: 3
+  eventLocation: 10
+  repeatable: 0
+  mandatory: 1
+  done: 0
+  description: Visit Library
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: a5fe2149b1fd0744694c611ff1bd935a, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: (Not exactly my kind of place, the smell of old tomes and such makes my
+      head hurt. No other place like it for getting info though.)
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 2
+    previousObjectIndex: 0
+    type: 0
+    text: You walk up a flight of stairs. The library, as your note informed you,
+      is split into the apartments on the 3rd floor of the complex. You knock on
+      the door as the instructions tell you.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 0
+    text: After a while you hear a deadbolt slide open and the lock click as it is
+      opened from the other side. A woman cracks the door open and motions you to
+      come inside, locking the door behind you as you enter.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 54e24c7647e3f194a9636a45c382f18e, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: After a while you hear a deadbolt slide open and the lock click as it is
+      opened from the other side. A woman cracks the door open and motions you to
+      come inside, locking the door behind you as you enter.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 4
+      choiceText: Look around (Mental + Academics 2)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 2
+      boolIndex: 0
+      attribute: 2
+      skill: 7
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 5
+      choiceText: Explain yourself
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 54e24c7647e3f194a9636a45c382f18e, type: 3}
+  - nextObjectIndex: 7
+    previousObjectIndex: 0
+    type: 0
+    text: As your gaze wanders along the massive bookshelves lining the walls a couple
+      of old tomes you thought lost pertaining to The Inquisition and the occult
+      catch your eye. You make a mental note to peruse them later.
+    isItalic: 1
+    hasReward: 1
+    rewardType: 0
+    rewardSkill: 8
+    rewardValue: 1
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 6
+    previousObjectIndex: 0
+    type: 0
+    text: "Librarian: \"What\u2019s your business here? I wasn\u2019t expecting anyone.
+      I hope you\u2019re not here just to waste my time.\""
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 54e24c7647e3f194a9636a45c382f18e, type: 3}
+  - nextObjectIndex: 7
+    previousObjectIndex: 0
+    type: 0
+    text: The scowl on her face leaves no room for interpretation. She is not thrilled
+      about your arrival.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 54e24c7647e3f194a9636a45c382f18e, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: The librarian arches a brow as she waits for you to speak.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 8
+      choiceText: Proper greeting (Social + Etiquette 4)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 13
+      choiceText: Ask her for info.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 54e24c7647e3f194a9636a45c382f18e, type: 3}
+  - nextObjectIndex: 9
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \"Evening, ma\u2019am. I\u2019m so very sorry to bother you, what
+      with the importance of the work you do here. The curation of knowledge is such
+      a noble pursuit.\""
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 54e24c7647e3f194a9636a45c382f18e, type: 3}
+  - nextObjectIndex: 10
+    previousObjectIndex: 0
+    type: 0
+    text: 'You: "However, I am pressed, as I have a dire and swift need for information
+      pertaining to certain subjects that I simply do not believe I could find elsewhere.
+      This is the premiere collection of information and intelligence within the
+      city, after all."'
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 11
+    previousObjectIndex: 0
+    type: 0
+    text: You bow courteously, and as you raise your eyes back onto her, you can
+      see her mood has lightened considerably. A small giggle escapes her lips.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 54e24c7647e3f194a9636a45c382f18e, type: 3}
+  - nextObjectIndex: 12
+    previousObjectIndex: 0
+    type: 0
+    text: 'Librarian: "No need for such formalities, even if it does make a lady
+      feel appreciated. Now, how may I help you?"'
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 54e24c7647e3f194a9636a45c382f18e, type: 3}
+  - nextObjectIndex: 15
+    previousObjectIndex: 0
+    type: 0
+    text: "You explain what you\u2019re looking for. The librarian looks thoughtful
+      for a moment, before speaking up again."
+    isItalic: 1
+    hasReward: 1
+    rewardType: 0
+    rewardSkill: 6
+    rewardValue: 3
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 14
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \"I\u2019m looking for info on local hunters and The Inquisition.
+      You got anything in that department?\""
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 15
+    previousObjectIndex: 0
+    type: 0
+    text: "Librarian: \"I\u2019m sure I would know nothing of such horrid things.\""
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 54e24c7647e3f194a9636a45c382f18e, type: 3}
+  - nextObjectIndex: 16
+    previousObjectIndex: 0
+    type: 0
+    text: 'Librarian: "I think you might want to look over the section in the back
+      left, there might be something of your interest back there."'
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 54e24c7647e3f194a9636a45c382f18e, type: 3}
+  - nextObjectIndex: 17
+    previousObjectIndex: 0
+    type: 0
+    text: 'Librarian: "Other than that, you might need the right vamp for the job.
+      You might want to try the local chantry. I know a lovely young lady over there.
+      So polite, so civilized!"'
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 54e24c7647e3f194a9636a45c382f18e, type: 3}
+  - nextObjectIndex: 18
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \"Thanks. I\u2019ll go check it out.\""
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 19
+    previousObjectIndex: 0
+    type: 0
+    text: You make your way to the back past the dimly lit rows of shelves filled
+      to the brim with books, the older the further back you get. You arrive at the
+      section the librarian pointed out to see it is messy and badly organized.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 20
+    previousObjectIndex: 0
+    type: 0
+    text: The books are stacked to the ceiling, seemingly in no particular order.
+      It looks like no one has touched this section for quite possibly years.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 21
+    previousObjectIndex: 0
+    type: 0
+    text: 'You: "Oh, fuck ME..!"'
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 5
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: (I should probably look into these...)
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 22
+      choiceText: Search the books (Mental + Academics 4)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 7
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 24
+      choiceText: Look over the books
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 23
+    previousObjectIndex: 0
+    type: 0
+    text: "You browse over the tomes\u2019 backs for what feels like hours, until
+      a particular title, \xB4The Hunters: A Guide For A Longer Unlife\xB4, catches
+      your eye. You crack open the book, browsing the index for particulars. As it
+      turns out hunters have a central lair in this city in particular"
+    isItalic: 1
+    hasReward: 1
+    rewardType: 0
+    rewardSkill: 8
+    rewardValue: 1
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: "(Not sure whether to call this good or bad news\u2026)"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 10
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 25
+    previousObjectIndex: 0
+    type: 0
+    text: "You browse the tomes\u2019 backs for a while, but nothing in particular
+      catches your eye. You decide it\u2019s a waste of time to look for a book,
+      knowing no title, that might not even be there."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \"\u201CYeah, nope. I\u2019m out of here. I\u2019m better off just
+      checking out the Chantry.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: You saunter your way back from the depths of the library, nod to the librarian
+      on your way back to the empty, silent streets.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}

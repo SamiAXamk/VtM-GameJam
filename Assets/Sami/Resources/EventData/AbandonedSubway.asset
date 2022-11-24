@@ -1,0 +1,401 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: AbandonedSubway
+  m_EditorClassIdentifier: 
+  eventId: 11
+  actionPoints: 3
+  boolListIndex: 15
+  eventLocation: 3
+  repeatable: 0
+  mandatory: 1
+  done: 0
+  description: Abandoned Subway
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: 99e32e062fe7527488d369e11e95e315, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: "Your sources have led you to the long abandoned subway station on the
+      outskirts of the city. The information you have now suggests that the subway
+      has recently become more and more radioactive\u2026"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 2
+    previousObjectIndex: 0
+    type: 0
+    text: "On arrival, the stairs to the subway station have been nailed shut, there\u2019s
+      trash littering the surrounding area, and no sign of life anywhere near."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 0
+    text: (This seems like the place where the bomb was built.. I think I need to
+      investigate further.)
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: You climb over the fence, swiftly landing on your feet at the top of the
+      stairs. You decide to head down.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 5
+    previousObjectIndex: 0
+    type: 0
+    text: "Walking in the darkness, it doesn\u2019t take long for your eyes to adjust
+      to the little to no light of the subway station. You start following one of
+      the abandoned tunnels for a mile or two."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: Be careful in the darkness, you might easily get lost.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 6
+      choiceText: Keep walking (Mental + Awareness 4)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 10
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 15
+      choiceText: "(Shit.. I seem to have gotten lost\u2026 I need to go back\u2026)"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: You keep walkin with no issues.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 7
+      choiceText: "(Huh\u2026 the radiation detector?) (Mental + Science 5)"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 2
+      skill: 15
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 8
+      choiceText: Keep walking
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 8
+    previousObjectIndex: 0
+    type: 0
+    text: "(The radiation detector I have seems to show higher and higher levels..
+      If I can just keep following the trail, I think I\u2019ll eventually reach
+      the source\u2026)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 9
+    previousObjectIndex: 0
+    type: 0
+    text: After following the trail for a good while longer, you reach an opening
+      in the tunnel. You can hear chatter that on a closer listen, is clearly human
+      speech.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 10
+    previousObjectIndex: 0
+    type: 0
+    text: "(Wait\u2026 what the fuck.. it\u2019s the cops?!\u201D)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "(Wait\u2026 what the fuck.. it\u2019s the cops?!\u201D)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 11
+      choiceText: "(I could hide and wait for them to leave\u2026) (Mental + Stealth
+        4)"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 1
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 12
+      choiceText: "(I\u2019m going to just confront them and come clean and handle
+        my investigation from there) (Social + Politics 4)"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 9
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 17
+      choiceText: "(They noticed me\u2026 shit. Maybe I could intimidate them away?)
+        (Social + Brawl 4)"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 4
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 16
+      choiceText: (Wait shit... they're coming here. They're telling me to get out,
+        shit... Guess there's no other choice.)
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: a60f2da924916ad4d9ed918b38d172d9, type: 3}
+  - nextObjectIndex: 14
+    previousObjectIndex: 0
+    type: 0
+    text: "You successfully hide from the police, keeping yourself in the shadows,
+      as you try to listen in on the conversation. The police seem to have no clue
+      about what\u2019s going on with the crime scene. Eventually they leave and
+      you can begin your investigation"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: a60f2da924916ad4d9ed918b38d172d9, type: 3}
+  - nextObjectIndex: 13
+    previousObjectIndex: 0
+    type: 0
+    text: You confidently walk to the police, some of them immediately pull out their
+      guns, what the hell is anyone else doing in these dank tunnels at this time
+      of night anyway?
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: a60f2da924916ad4d9ed918b38d172d9, type: 3}
+  - nextObjectIndex: 14
+    previousObjectIndex: 0
+    type: 0
+    text: "You manage to convince the humans of your right to actually be there,
+      so much so that they actually offer to leave so they don\u2019t disturb your
+      important investigation."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: You look around the tunnels now that the cops aren't a bother anymore.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 19
+      choiceText: Search around (Mental + Investigation 3)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 3
+      boolIndex: 0
+      attribute: 2
+      skill: 6
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 15
+      choiceText: Look around
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 16
+    previousObjectIndex: 0
+    type: 0
+    text: "There\u2019s no sign of the bomb anywhere."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: You leave the tunnel.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 18
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CY\u2019all want a fight? I\u2019ll beat you to a pulp.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: a60f2da924916ad4d9ed918b38d172d9, type: 3}
+  - nextObjectIndex: 14
+    previousObjectIndex: 0
+    type: 0
+    text: "You raise your fists up and seem ready to attack. The cops stare at you
+      for a while before deciding you\u2019re not worth the trouble. You\u2019re
+      positively surprised over this working, but don\u2019t think about it for too
+      long."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: a60f2da924916ad4d9ed918b38d172d9, type: 3}
+  - nextObjectIndex: 16
+    previousObjectIndex: 0
+    type: 0
+    text: "There\u2019s no sign of the bomb anywhere, but you find a pile of scattered
+      documents revealing the location of the Second Inquisition\u2019s headquarters."
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 28
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}

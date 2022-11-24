@@ -1,0 +1,573 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: VisitChantryForTheFirstTime
+  m_EditorClassIdentifier: 
+  eventId: 8
+  actionPoints: 2
+  boolListIndex: 5
+  eventLocation: 4
+  repeatable: 0
+  mandatory: 1
+  done: 1
+  description: Local Tremere which may help me
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: a5fe2149b1fd0744694c611ff1bd935a, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: (Been a good while since I visited a chantry. They have their uses, sure,
+      and many at that but these places have always been kind of giving me the creeps.)
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 2
+    previousObjectIndex: 0
+    type: 0
+    text: 'You approach the building, a small, narrow 3-storey house squatting in
+      the middle of the taller ones flanking it on each side. Outside, it looks like
+      a normal building, perhaps a small, old hotel. But you know the things that
+      go on inside. You knock on the sturdy, wooden door. After a little while it
+      opens to reveal the figure of a young woman.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201CYeah? What\u2019s your business? We\u2019re not exactly open
+      to visitors\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CLong story short, I need some intel on local hunters and their
+      haunts. There\u2019s also another matter, but I won\u2019t discuss it out on
+      the street. The lady at the kindred library told me I could find \xB4a young,
+      charming, and civilized lady\xB4 here who could help me\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 5
+    previousObjectIndex: 0
+    type: 0
+    text: She steps aside, gesturing you to come on in. She locks the door behind
+      you.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 1
+    text: 'She steps aside, gesturing you to come on in. She locks the door behind
+      you.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 28
+      choiceText: (Mental + Awareness 3) There is a photo of someone important...
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 2
+      skill: 10
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 6
+      choiceText: You wait for her to be done with the door.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 7
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201CSo, you know Beatrix from the library?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 8
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CI never caught her name. I\u2019m new in town. She seemed to
+      think rather highly of you though.\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 9
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201CGood enough for me. Call me Valerie. So, what brings you
+      around, the hunter business? That\u2019s easy. Their kind of people typically
+      hang out around old cathedrals and such. There\u2019s at least one in town
+      that comes to mind.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 10
+    previousObjectIndex: 0
+    type: 0
+    text: "You: (Fuck me, that sounds like trouble. Well, I\u2019ve handled myself
+      just fine this far.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 11
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CThanks. There was this other thing, though\u2026"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 1
+    text: "Woman: \u201CYeah? What\u2019s your business? We\u2019re not exactly open
+      to visitors\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 12
+      choiceText: "You: \u201CYou had to deal with the Prince and his entourage lately?\u201D"
+      check: 1
+      checkType: 2
+      hidden: 1
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 1
+      predatorType: 0
+    - nextObjectIndex: 18
+      choiceText: "You: \u201CCan\u2019t help but let you know, you\u2019re the prettiest
+        thing I\u2019ve seen since I walked into this town.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 13
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201CUgh, luckily not. I work better the less\u2026 supervised
+      I am.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 1
+    text: "Woman: \u201CYeah? What\u2019s your business? We\u2019re not exactly open
+      to visitors\u201D"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 15
+      choiceText: "You: \u201CI think we\u2019re all tired of pompous pricks sticking
+        their noses where they don\u2019t belong. Pretty sure we\u2019d all do better
+        without the concept of \xB4royalty\xB4\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 20
+      choiceText: "You: \u201CI don\u2019t think we can let beings as powerful as
+        the kindred just run amuck. The masquerade would be over in a second without
+        rules and someone to enforce them.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 15
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201CA man after my own heart\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 16
+    previousObjectIndex: 0
+    type: 0
+    text: She smiles a crooked, yet warm smile at you, her features softening noticeably.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 1
+    text: She smiles a crooked, yet warm smile at you, her features softening noticeably.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 17
+      choiceText: "(Social + Occult 5)  You: \u201CAbout those hunters\u2026 So,
+        I was thinking\u2026 Barging right into a fucking cathedral that may or may
+        no be full of kindred-hating assholes doesn\u2019t sound like the safest
+        plan. I don\u2019t think the stuff they\u2019re trying to hide would be just
+        sitting around there, either.\u201D "
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 0
+      skill: 8
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 18
+      choiceText: "You: \u201CCan\u2019t help but let you know, you\u2019re the prettiest
+        thing I\u2019ve seen since I walked into this town.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 20
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201COh, you\u2019re a sharp one, aren\u2019t you. Yeah, you might
+      be better off just checking the mausoleum in that area instead, that seems
+      like a place their sort would hide their secrets. Are we done here, or did
+      you still.. Need something?\u201D\r\n"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 14
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 21
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201COh, I\u2019d turn red if I could. You say that to every tall
+      and mysterious kindred lady you run across?\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 20
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: Oh\u2026 Well, best not dwell on who is and isn\u2019t a necessary
+      evil. We certainly have better things to talk about, don\u2019t we?"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 1
+    text: "Woman: Oh\u2026 Well, best not dwell on who is and isn\u2019t a necessary
+      evil. We certainly have better things to talk about, don\u2019t we?\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 21
+      choiceText: "You: \u201CI bet someone as knowledgeable in the secrets of the
+        kindred as yourself would have a thing or two to teach someone like me about
+        the Blush of Life and its more\u2026 mundane applications.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 23
+      choiceText: "You: \u201CIf it\u2019s pretty words and polite banter you enjoy,
+        why not stick around, I\u2019ve got plenty more in store.\u201D "
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 26
+      choiceText: "You: \u201CThanks for your help, I won\u2019t forget this. Better
+        be on my way though, I have plenty of things to take care of and precious
+        little time.\u201D "
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 22
+    previousObjectIndex: 0
+    type: 0
+    text: Valerie bursts out in boisterous laughter, throwing her head back
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201CWould that we had the time. It isn\u2019t every day you meet
+      a man of both manners and intrigue. Do come calling on me again when you have
+      the time, though. Then we can see about a\u2026 more private lesson into the
+      intricacies of the kindred\u201D"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 11
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 24
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201CUh huh? And what exactly would this \xB4plenty more\xB4 entail?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 1
+    text: "Woman: \u201CUh huh? And what exactly would this \xB4plenty more\xB4 entail?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 25
+      choiceText: "(Social + Subterfuge 4) P: \u201CWell, perhaps the good lady and
+        myself could enjoy\u2026 dinner together sometime?\u201D"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 26
+      choiceText: The tall vampire in front of you cuts an impressive, powerful,
+        and most all intimidating figure. Any hope you had of wooing someone like
+        her quickly dissipates from your mind. She is out of your league with a capital
+        O
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201CHah. I like a man with a sense of humour. Perhaps. Perhaps
+      we could.\u201D"
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 11
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: "You land a polite kiss on Valerie\u2019s hand before disappearing back
+      into the night, leaving the Tremere woman smiling after you"
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 49
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 8
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201CSo, you know Beatrix from the library?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 14
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 27
+    previousObjectIndex: 0
+    type: 0
+    text: 'You notice an old photo of a dapper looking young man. It is placed in
+      a very central and visible spot, on a small table in the corner, leaning on
+      a vase. The frame is gilded, and very ornately sculpted metal. It strikes you
+      that this must be a person of import to the woman or someone else here, although
+      you see no one else around. '
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 14
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}

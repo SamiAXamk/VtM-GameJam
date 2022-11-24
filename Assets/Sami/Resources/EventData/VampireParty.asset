@@ -1,0 +1,1041 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: VampireParty
+  m_EditorClassIdentifier: 
+  eventId: 14
+  actionPoints: 3
+  boolListIndex: 32
+  eventLocation: 8
+  repeatable: 0
+  mandatory: 1
+  done: 0
+  description: Attend the Midnight Ball
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: 11b32993cba5d8247b0873b493330f0b, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: " (I simply cannot understand certain people, with the threats we face
+      these people decided to have a ball! However, my sources indicate that Lucretia
+      Fayette is in here and we have more than a few words to exchange with her.
+      After all I did for her she decided to pay back by attacking me and my heaven!
+      She better have her explanation ready and it better be good or else\u2026)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 2
+    previousObjectIndex: 0
+    type: 0
+    text: 'You arrive to the address on the invitation by the looks of it your sources
+      are correct. You see many highly influential kindred walking, including Fayette
+      and even the Prince himself. In fact, you see the two of them exchanging a
+      few words. What is going on in here?
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "You arrive to the address on the invitation by the looks of it your sources
+      are correct. You see many highly influential kindred walking, including Fayette
+      and even the Prince himself. In fact, you see the two of them exchanging a
+      few words. What is going on in here?\r"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 3
+      choiceText: (Mental + Insight 4) Try to read their expressions.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 11
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 5
+      choiceText: Go talk to Fayette
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 19
+      choiceText: Go talk to the Prince
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: "To your eye the Prince seems stressed, even worried. Whatever he and Fayette
+      were talking about couldn\u2019t have been pleasant. You don\u2019t think they
+      work together, at least not willingly.\r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "To your eye the Prince seems stressed, even worried. Whatever he and Fayette
+      were talking about couldn\u2019t have been pleasant. You don\u2019t think they
+      work together, at least not willingly.\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 5
+      choiceText: Go talk to Fayette
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 19
+      choiceText: Go talk to the Prince
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 6
+    previousObjectIndex: 0
+    type: 0
+    text: "You don\u2019t let Fayette out of your sight and follow her inside. You
+      grab her arm before she could go to anyone else.\r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 7
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CYou and me are going to have a little dance.\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 8
+    previousObjectIndex: 0
+    type: 0
+    text: 'You manage to catch her completely off guard and you judge the surprise
+      on her face to be genuine. She tries to free herself but quickly realizes the
+      futility of her efforts. You walk the two of you to the middle of the sea of
+      dancing kindred and start dancing like so many around so.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 9
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CWhat are you doing here? I heard terrible things about
+      you and your heaven, full glad I am that you refused me and even gladder that
+      you\u2019re well.\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 10
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CCut the bullshit, we both know you were behind the attack and
+      I was supposed to die there, like that ghoul. We both also know that there\u2019s
+      no way you\u2019d be working alone so start talking.\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 11
+    previousObjectIndex: 0
+    type: 0
+    text: 'Her stare changes from something resembling relief to first surprise and
+      the distress.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 12
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CWhat are you on about? I know nothing of the attack that
+      you don\u2019t already know, there\u2019s no way-\u2026\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 13
+    previousObjectIndex: 0
+    type: 0
+    text: 'You cut her chatter by pulling her closer to you for the proper dance
+      position and start dancing according to the tradition. She has no choice but
+      to follow you.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 14
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CI said cut the crap! I want answers. Who are you working for,
+      what is their ultimate goal and where can I find them. I suggest you talk now
+      lest I have to take you in for proper interrogation. Would hate to do that
+      to the that pretty face of yours\u2026\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 15
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CAnd once again, you\u2019re threatening me. I said I have
+      no idea what you are talking about and no amount mutilation\u2019s going to
+      change that.\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 16
+    previousObjectIndex: 0
+    type: 0
+    text: "Her face\u2019s like steel she shows no signs of giving you what you want.
+      You dance for a moment but her silence is unbreakable.\r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 17
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CFine, let\u2019s do the things the hard way. I will be back
+      for you.\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 18
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201COh I am counting on it, detective! Run, you pretty little
+      detective for the city will crumble soon!\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 19
+    previousObjectIndex: 0
+    type: 0
+    text: 'You let go of her. She blows you a kiss to you which you ignore as you
+      start looking for the Prince '
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 20
+    previousObjectIndex: 0
+    type: 0
+    text: 'Locating the Prince is easy enough. You approach him but a guard materializes
+      behind you asking you to state your business. You introduce yourself to the
+      guard and briefly explain the situation. The guard takes you before the Prince.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 21
+    previousObjectIndex: 0
+    type: 0
+    text: "Prince: \u201CI was told you\u2019d have some urgent news. Pray tell me
+      quickly for I have very little time.\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 22
+    previousObjectIndex: 0
+    type: 0
+    text: 'Just as you were about to start explaining what has happened to the prince,
+      you hear screams and shouts from the distance. You turn around and see what
+      you can only describe to be vampire hunters flooding into the ball, killing
+      and injuring everyone in their way.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 23
+    previousObjectIndex: 0
+    type: 0
+    text: "You turn back toward the Prince to warn him but he\u2019s nowhere in sight.
+      On the other side of the room you see him pushing others out of his way as
+      he tries to escape.\r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 24
+    previousObjectIndex: 0
+    type: 0
+    text: "(Fine, better this way anyway. I\u2019ll catch up to him later. Now, how
+      do I get out of here?)\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 25
+    previousObjectIndex: 0
+    type: 0
+    text: You see a pack of hunters charging straight at you.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: You see a pack of hunters charging straight at you.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 26
+      choiceText: (Physical + Brawl 4) Defend yourself with melee combat.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 1
+      skill: 4
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 27
+      choiceText: (Mental + Firearms 5) Defend yourself with your pistol.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 2
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 28
+      choiceText: (-4 Health) Run away
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 29
+    previousObjectIndex: 0
+    type: 0
+    text: "You prepare yourself. The first hunter is kicked to the ground. They don\u2019t
+      get up. The second, clearly surprised by the resistance, tries to be clever
+      with their movement but you manage to break their nose with ease. They collapse
+      down as well. The third tires to be clever as they try to circle behind you.
+      You however notice this and by using their own momentum throw them into two
+      other hunters running towards you. One of the hunters try to get up but you
+      make their efforts futile with a simple kick to the chin. You hear the bones
+      cracking. "
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 29
+    previousObjectIndex: 0
+    type: 0
+    text: You pull out your trusty 9mm you keep in your person. With incredible precision
+      you fire away, downing five hunters in the blink of an eye. At the edge of
+      your vision you see someone running towards you. You crouch down, sending the
+      hunter flying to the ground. With one swift motion you stand up and put a bullet
+      to their head. The red lake forming under you brings you satisfaction.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 29
+    previousObjectIndex: 0
+    type: 0
+    text: You decided that running away is the best course of action and turn on
+      your heels. Unfortunately for you a hunter has managed to sneak behind you
+      and tries to decapitate you. The attempt fails, however, causing your blood
+      to spill everywhere. You run to hide behind a nearby buffet table.
+    isItalic: 1
+    hasReward: 1
+    rewardType: 6
+    rewardSkill: 0
+    rewardValue: 4
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 30
+    previousObjectIndex: 0
+    type: 0
+    text: 'Bodies of hunters and vampire ashes start filling up the ball room. This
+      does not slow the carnage down what so ever. You scan your surroundings trying
+      to figure out the next course of action. You see an open window and are confident
+      you can escape. You also notice Fayette, hiding behind a buffet table.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: 'Bodies of hunters and vampire ashes start filling up the ball room. This
+      does not slow the carnage down what so ever. You scan your surroundings trying
+      to figure out the next course of action. You see an open window and are confident
+      you can escape. You also notice Fayette, hiding behind a buffet table.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 33
+      choiceText: '(Social + Brawl 4) Go after Fayette and get the answers you seek. '
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 4
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 31
+      choiceText: Escape
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: You wait for the perfect moment before sprinting towards the window. You
+      hear the hunters shouting something and someone fires a few shots at you, luckily
+      missing. You crash trough the first story window and land onto the alley behind
+      the building. With one swift motion you roll out from the jump and continue
+      running. Things seem to be seriously escalating and you need to stop that,
+      fast.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 33
+    previousObjectIndex: 0
+    type: 0
+    text: "You sprint towards Fayette and grab ahold of her. She\u2019s about to
+      let out a scream but you manage to cover her mouth. Recognizing your hand,
+      she tries to shake it off and turn around to face you.\r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 34
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CWhat do you think you\u2019re doing? Couldn\u2019t resist
+      me after all? I kne-\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 35
+    previousObjectIndex: 0
+    type: 0
+    text: "You:  \u201CShut it! You have answers I need and you\u2019re going to
+      give them to me.\u201D\r\n\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 36
+    previousObjectIndex: 0
+    type: 0
+    text: The look her face is one of amusement.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 37
+    previousObjectIndex: 0
+    type: 0
+    text: 'Fayette: "Now? Really?"'
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 38
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CYes, right now. Give me info I need and I\u2019ll help you
+      escape. Otherwise, it\u2019s good bye.\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 39
+    previousObjectIndex: 0
+    type: 0
+    text: 'She studies your face for a moment and takes a glance around the room.
+      She sights and nods.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 40
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CI am forced to do the things I do and there\u2019s nothing
+      I could do, or could\u2019ve done, to make things right. My orders were to
+      get the Prince soon to the abandoned factory. You, however, became one beautiful
+      problem and I was ordered to get rid of you. Know, that I never wanted any
+      harm come to you but had no choice.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 41
+    previousObjectIndex: 0
+    type: 0
+    text: "There\u2019s no trace of mischief or flirt on her face, only utter sadness
+      and disappointment. The pain and regret on is clearly visible and real.\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 42
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette:  \u201CYou still have time to make things right! I will be in
+      contact in the upcoming nights to let you know when the Prince\u2019s at the
+      factory. It\u2019s up to you if you heed my intel, I\u2019ll give it to you
+      nevertheless.\u201D"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 34
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 43
+    previousObjectIndex: 0
+    type: 0
+    text: "You nod as you survey around the room. The exit you had planned earlier
+      is still viable, if the two of you move now. You grab Fayette\u2019s hand and
+      start running towards the window. Hunters seem to preoccupied with something
+      else and the two of you can make your escape with relative ease.\r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 44
+    previousObjectIndex: 0
+    type: 0
+    text: "You jump through the window and land to the alley behind the building.
+      Fayette climbs trough the window it unexpected speed. The two of you run away
+      from the ball until you\u2019re certain you\u2019re not being followed. You
+      crouch behind a trash can. Fayette pulls your hand to get your attention.\r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 45
+    previousObjectIndex: 0
+    type: 0
+    text: 'Fayette: "Before you go, I have to ask you of something..."'
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 46
+    previousObjectIndex: 0
+    type: 0
+    text: 'She looks up straight into your eyes, practically begging for forgiveness.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 47
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CPlease, forgive me. I know you have little to no reason
+      to do so and all the reasons to despise me, but I sincerely hope you can find
+      it in you to forgive me.\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 48
+    previousObjectIndex: 0
+    type: 1
+    text: "Fayette: \u201CPlease, forgive me. I know you have little to no reason
+      to do so and all the reasons to despise me, but I sincerely hope you can find
+      it in you to forgive me.\u201D\r"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 48
+      choiceText: "\u201CI forgive you.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 57
+      choiceText: "\u201CI cannot forgive you.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 49
+    previousObjectIndex: 0
+    type: 0
+    text: 'You meet her begging gaze. Even at a time like this she manages look beautiful.
+      You feel an ever so slight smile making its way to your face.
+
+'
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CHow could I not forgive you for it is clear you did the things
+      you did because you had no choice.\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 51
+    previousObjectIndex: 0
+    type: 0
+    text: "Her eyes light up and she smiles brightly. She grabs you with such strength
+      you can\u2019t help but to stop and hold her for a few moments. The two of
+      you stay still for a few moments.\r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 52
+    previousObjectIndex: 0
+    type: 0
+    text: 'You whisper into her ear.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 53
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CMy apologies to your ladyship, but I believe I have a city
+      and its damsel to rescue.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 54
+    previousObjectIndex: 0
+    type: 0
+    text: 'You feel rather than hear her laughter. She gathers herself and the two
+      of you stand up.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CYes, of course. Go and warn the Prince. Rescue him if he\u2019s
+      already been taken. I believe in you, Detective.\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: "You nod. Fayette seems happier than you\u2019ve ever seen her before.
+      You nod again as you let go of her and think what\u2019s the best next course
+      of action."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 57
+    previousObjectIndex: 0
+    type: 0
+    text: "You meet her begging gaze. Event at a time like this she manages look
+      beautiful. Then you remember the horror you felt as you realized your heaven
+      was being attacked. How close it was all to end. How she\u2019s the one responsible.\r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 58
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CThere\u2019s no way I could forgive what\u2019ve done. Not
+      only am I referring to the attack against me but also against the Prince, the
+      whole vampire society. You will be brought to justice.\r\"\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 59
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette freezes as if she was all of a sudden made of glass. She hold
+      your hands harder and harder as you dance away. You cannot help but commend
+      her on how well she\u2019s handling the thing. The two of you stay still for
+      a few moments.\r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 60
+    previousObjectIndex: 0
+    type: 0
+    text: 'After a while you try to peel her hands off of you and she seems to remember
+      where she was. She apologies time and time again as you bid your farewells.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 61
+    previousObjectIndex: 0
+    type: 0
+    text: "Faeytte:  \u201CI\u2026. I understand\u2026 I just had hoped that maybe
+      you could\u2026 that maybe we could\u2026\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: "Not knowing what to say or do, you nod and leave the desperate Toreador
+      by herself and walk away, thinking what\u2019s the best next course of action."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}

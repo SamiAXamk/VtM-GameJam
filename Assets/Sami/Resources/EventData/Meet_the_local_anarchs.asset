@@ -1,0 +1,769 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: Meet_the_local_anarchs
+  m_EditorClassIdentifier: 
+  eventId: 3
+  actionPoints: 2
+  boolListIndex: 13
+  eventLocation: 12
+  repeatable: 0
+  mandatory: 1
+  done: 0
+  description: Meet the Local Anarchs
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: 6658033b4a1474c4dbd584c4b59fe7f3, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: "You make your way into one of the run-down buildings, popular among the
+      local Anarch. The door seems to be hanging slightly off the hinges as you step
+      into the once abandoned apartment. The air has a distinct smell of cigarettes
+      and mold. You\u2019re stopped in your tracks immediately by a nosferatu staring
+      you down."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 2
+    previousObjectIndex: 0
+    type: 0
+    text: "Nosferatu: \u201DYou lost or somethin\u2019? You lookin\u2019 to get your
+      face split?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cdb4d5900ba34b34bad2226bba26ec8d, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Nosferatu: \u201DYou lost or somethin\u2019? You lookin\u2019 to get your
+      face split?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 3
+      choiceText: "\u201DHey hey now, let\u2019s not get all riled up. I\u2019m one
+        of you guys.\u201D"
+      check: 1
+      checkType: 2
+      hidden: 1
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 1
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "\u201DI wouldn\u2019t get all riled up if I were you, I\u2019m
+        just here to ask some questions.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cdb4d5900ba34b34bad2226bba26ec8d, type: 3}
+  - nextObjectIndex: 6
+    previousObjectIndex: 0
+    type: 0
+    text: "Nosferatu: \u201DI don\u2019t give a shit if you\u2019re \u2018one of
+      us\u2019 or not, what\u2019s your fuckin\u2019 business here?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 3
+      choiceText: "\u201DHey hey now, let\u2019s not get all riled up. I\u2019m one
+        of you guys.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "\u201DI wouldn\u2019t get all riled up if I were you, I\u2019m
+        just here to ask some questions.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cdb4d5900ba34b34bad2226bba26ec8d, type: 3}
+  - nextObjectIndex: 5
+    previousObjectIndex: 0
+    type: 0
+    text: Her stare changes from hostility to suspicion.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 3
+      choiceText: "\u201DHey hey now, let\u2019s not get all riled up. I\u2019m one
+        of you guys.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "\u201DI wouldn\u2019t get all riled up if I were you, I\u2019m
+        just here to ask some questions.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 7
+    previousObjectIndex: 0
+    type: 0
+    text: "Nosferatu: \u201D... What kind of questions?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 3
+      choiceText: "\u201DHey hey now, let\u2019s not get all riled up. I\u2019m one
+        of you guys.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "\u201DI wouldn\u2019t get all riled up if I were you, I\u2019m
+        just here to ask some questions.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cdb4d5900ba34b34bad2226bba26ec8d, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Nosferatu: \u201DI don\u2019t give a shit if you\u2019re \u2018one of
+      us\u2019 or not, what\u2019s your fuckin\u2019 business here?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 4
+      choiceText: "\u201DJust here to ask a few questions\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 8
+      choiceText: "\u201CI\u2019m just gonna give it to you straight. There\u2019s
+        a bomb under the city, ready to blow us all up any day now. I need to find
+        it, do the local Anarchs know anything?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cdb4d5900ba34b34bad2226bba26ec8d, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Nosferatu: \u201D... What kind of questions?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 8
+      choiceText: "\u201CI\u2019m just gonna give it to you straight. There\u2019s
+        a bomb under the city, ready to blow us all up any day now. I need to find
+        it, do the local Anarchs know anything?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 10
+      choiceText: "\"There\u2019s been a lot of restlessness around the city as of
+        late, local kindred ain\u2019t happy. Any chance any of you Anarch heard
+        anything?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cdb4d5900ba34b34bad2226bba26ec8d, type: 3}
+  - nextObjectIndex: 9
+    previousObjectIndex: 0
+    type: 0
+    text: She looks behind her into one of the rooms, a couple of other kindred have
+      shown up to the doorframe to follow your conversation. They seem uneasy and
+      whisper between themselves for a good while. She nods to one of her allies,
+      and finally turns back to you.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 8
+      choiceText: "\u201CI\u2019m just gonna give it to you straight. There\u2019s
+        a bomb under the city, ready to blow us all up any day now. I need to find
+        it, do the local Anarchs know anything?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 10
+      choiceText: "\"There\u2019s been a lot of restlessness around the city as of
+        late, local kindred ain\u2019t happy. Any chance any of you Anarch heard
+        anything?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 16
+    previousObjectIndex: 0
+    type: 0
+    text: "Nosferatu: \u201CWe\u2019ve gathered some intel and all we know so far
+      is that it seems to be planted by a group of vampire hunters that we\u2019re
+      calling the Second Inquisition.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 8
+      choiceText: "\u201CI\u2019m just gonna give it to you straight. There\u2019s
+        a bomb under the city, ready to blow us all up any day now. I need to find
+        it, do the local Anarchs know anything?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 10
+      choiceText: "\"There\u2019s been a lot of restlessness around the city as of
+        late, local kindred ain\u2019t happy. Any chance any of you Anarch heard
+        anything?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cdb4d5900ba34b34bad2226bba26ec8d, type: 3}
+  - nextObjectIndex: 11
+    previousObjectIndex: 0
+    type: 0
+    text: Her eyes glare at you now with hostility again.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 8
+      choiceText: "\u201CI\u2019m just gonna give it to you straight. There\u2019s
+        a bomb under the city, ready to blow us all up any day now. I need to find
+        it, do the local Anarchs know anything?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 10
+      choiceText: "\"There\u2019s been a lot of restlessness around the city as of
+        late, local kindred ain\u2019t happy. Any chance any of you Anarch heard
+        anything?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 12
+    previousObjectIndex: 0
+    type: 0
+    text: "Nosferatu: \u201CCut the bullshit, of course the local kindred ain\u2019t
+      happy! Why are you here?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 8
+      choiceText: "\u201CI\u2019m just gonna give it to you straight. There\u2019s
+        a bomb under the city, ready to blow us all up any day now. I need to find
+        it, do the local Anarchs know anything?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 10
+      choiceText: "\"There\u2019s been a lot of restlessness around the city as of
+        late, local kindred ain\u2019t happy. Any chance any of you Anarch heard
+        anything?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cdb4d5900ba34b34bad2226bba26ec8d, type: 3}
+  - nextObjectIndex: 12
+    previousObjectIndex: 0
+    type: 1
+    text: "Nosferatu: \u201CCut the bullshit, of course the local kindred ain\u2019t
+      happy! Why are you here?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 14
+      choiceText: "\u201DFine, fine. I\u2019ve got word of a bomb under the city,
+        it\u2019s wired to blow up any day now. I just need to know if you Anarchs
+        know anything about it\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 13
+      choiceText: "\u201CFuck you, I\u2019m not telling you my secrets.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 13
+      choiceText: "\u201CHey, hey... calm down\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cdb4d5900ba34b34bad2226bba26ec8d, type: 3}
+  - nextObjectIndex: 18
+    previousObjectIndex: 0
+    type: 0
+    text: "Some more Anarch have started to gather behind the nosferatu woman, she
+      seems pissed at you. You start to see flies crawl out of every orifice in her
+      face. You\u2019ve been warned. The flies begin to swarm you, forcing you to
+      leave."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 14
+      choiceText: "\u201DFine, fine. I\u2019ve got word of a bomb under the city,
+        it\u2019s wired to blow up any day now. I just need to know if you Anarchs
+        know anything about it\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 13
+      choiceText: "\u201CFuck you, I\u2019m not telling you my secrets.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 13
+      choiceText: "\u201CHey, hey... calm down\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 15
+    previousObjectIndex: 0
+    type: 0
+    text: "She looks like she\u2019s ready to attack, but her demeanor calms quickly
+      after you come clean."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 14
+      choiceText: "\u201DFine, fine. I\u2019ve got word of a bomb under the city,
+        it\u2019s wired to blow up any day now. I just need to know if you Anarchs
+        know anything about it\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 13
+      choiceText: "\u201CFuck you, I\u2019m not telling you my secrets.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 13
+      choiceText: "\u201CHey, hey... calm down\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cdb4d5900ba34b34bad2226bba26ec8d, type: 3}
+  - nextObjectIndex: 16
+    previousObjectIndex: 0
+    type: 0
+    text: "Nosferatu: \u201D...Yeah, we\u2019ve heard of it. Heard it might be vampire
+      hunters. 'The Second Inquisition', they call \u2018em.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 14
+      choiceText: "\u201DFine, fine. I\u2019ve got word of a bomb under the city,
+        it\u2019s wired to blow up any day now. I just need to know if you Anarchs
+        know anything about it\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 13
+      choiceText: "\u201CFuck you, I\u2019m not telling you my secrets.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 13
+      choiceText: "\u201CHey, hey... calm down\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cdb4d5900ba34b34bad2226bba26ec8d, type: 3}
+  - nextObjectIndex: 17
+    previousObjectIndex: 0
+    type: 0
+    text: "\u201DListen.. We don\u2019t know much yet, but we\u2019ll send you an
+      email if we find anything okay?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 14
+      choiceText: "\u201DFine, fine. I\u2019ve got word of a bomb under the city,
+        it\u2019s wired to blow up any day now. I just need to know if you Anarchs
+        know anything about it\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 13
+      choiceText: "\u201CFuck you, I\u2019m not telling you my secrets.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 13
+      choiceText: "\u201CHey, hey... calm down\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cdb4d5900ba34b34bad2226bba26ec8d, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: You leave the Anarchs.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 14
+      choiceText: "\u201DFine, fine. I\u2019ve got word of a bomb under the city,
+        it\u2019s wired to blow up any day now. I just need to know if you Anarchs
+        know anything about it\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 13
+      choiceText: "\u201CFuck you, I\u2019m not telling you my secrets.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 13
+      choiceText: "\u201CHey, hey... calm down\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: You flee the scene.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 14
+      choiceText: "\u201DFine, fine. I\u2019ve got word of a bomb under the city,
+        it\u2019s wired to blow up any day now. I just need to know if you Anarchs
+        know anything about it\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 13
+      choiceText: "\u201CFuck you, I\u2019m not telling you my secrets.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 13
+      choiceText: "\u201CHey, hey... calm down\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}

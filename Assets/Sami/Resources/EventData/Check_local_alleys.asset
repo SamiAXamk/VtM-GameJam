@@ -1,0 +1,2208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: Check_local_alleys
+  m_EditorClassIdentifier: 
+  eventId: 1
+  actionPoints: 1
+  boolListIndex: 0
+  eventLocation: 12
+  repeatable: 1
+  mandatory: 0
+  done: 1
+  description: Check Local Alleys
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: f8d64ca38a2bb0b4fa8d44b8eeee68bd, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: You find yourself in an alley off to the side of the main roads. The sides
+      of the alley are covered in garbage and who-knows-what.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 0
+      choiceText: 
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 0
+      choiceText: 
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 0
+      choiceText: 
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 2
+    previousObjectIndex: 1
+    type: 1
+    text: You find yourself in an alley off to the side of the main roads. The sides
+      of the alley are covered in garbage and who-knows-what.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 2
+      choiceText: This alley is well hidden from prying eyes, I should find someone
+        to feed upon. (Mental + Awareness 3)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 3
+      boolIndex: 0
+      attribute: 2
+      skill: 10
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 3
+      choiceText: "Hmm\u2026 these houses look like I could break in without much
+        issue\u2026"
+      check: 1
+      checkType: 4
+      hidden: 1
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 1
+    - nextObjectIndex: 4
+      choiceText: "This alley is disgusting, I\u2019m out of here!"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 5
+    previousObjectIndex: 1
+    type: 0
+    text: "There\u2019s someone over there, with no one else in sight. Perfect."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 5
+    previousObjectIndex: 2
+    type: 0
+    text: You eye the buildings surrounding you and notice a few potential points
+      of entry.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 4
+      choiceText: Weak little human, alone, like beef on a platter.
+      check: 1
+      checkType: 4
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 1
+      skill: 6
+      sect: 0
+      predatorType: 4
+    - nextObjectIndex: 5
+      choiceText: second choice
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 6
+      choiceText: third choice
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 3
+    type: 0
+    text: You leave the alley.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 6
+    previousObjectIndex: 3
+    type: 1
+    text: "What the-!\r"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 6
+      choiceText: Weak little human, alone, like beef on a platter.
+      check: 1
+      checkType: 4
+      hidden: 1
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 4
+    - nextObjectIndex: 15
+      choiceText: Oh, that hunky piece of meat is mine for the night!
+      check: 1
+      checkType: 4
+      hidden: 1
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 29
+      choiceText: They seem reasonable enough to lend me their blood.
+      check: 1
+      checkType: 4
+      hidden: 1
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 2
+    - nextObjectIndex: 4
+      choiceText: "Never mind, I don\u2019t have time for this."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 7
+    previousObjectIndex: 3
+    type: 0
+    text: "You run up to the human. You don\u2019t even try to be quiet. The human
+      obviously hears you but you don\u2019t care, it\u2019s not like he could do
+      anything to stop you now."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 7
+      choiceText: Jump him!
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 3
+      boolIndex: 0
+      attribute: 1
+      skill: 4
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 0
+      choiceText: Tackle him!
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 0
+      choiceText: Run past him!
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 8
+    previousObjectIndex: 3
+    type: 0
+    text: What the-!
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 9
+    previousObjectIndex: 3
+    type: 1
+    text: What the-!
+    isItalic: 0
+    hasReward: 1
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 9
+      choiceText: Jump him! (Physical + Brawl 3)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 3
+      boolIndex: 0
+      attribute: 1
+      skill: 4
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 12
+      choiceText: Tackle him!
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 14
+      choiceText: Run past him!
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 10
+    previousObjectIndex: 3
+    type: 0
+    text: You jump towards him, silencing his scream with your hand. The two of you
+      fall to the ground with your teeth deep in his warm bloody neck long before
+      either of you hit the ground.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 11
+    previousObjectIndex: 3
+    type: 0
+    text: You feed him, satisfying your thirst.
+    isItalic: 0
+    hasReward: 1
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 4
+    previousObjectIndex: 3
+    type: 0
+    text: "Lucky for him, he\u2019s still alive after you\u2019re finished. You get
+      up, cleaning the corners of your mouth. You take one last look at the now unconscious
+      human and get on your way."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 13
+    previousObjectIndex: 3
+    type: 0
+    text: "You run straight into him, sending him flying into the ground. Or so was
+      the plan\u2026"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 4
+    previousObjectIndex: 3
+    type: 0
+    text: Instead, the man turns out to be an acrobat of some sort and he manages
+      to completely avoid you. You slam onto the ground and see the man running away.
+      There goes the lunch, you think to yourself as you get up and leave the alley.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 4
+    previousObjectIndex: 3
+    type: 0
+    text: You run past the guy without a word and make your way towards the main
+      streets.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 16
+    previousObjectIndex: 3
+    type: 0
+    text: You take out a cigarette and approach the human.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 16
+    previousObjectIndex: 3
+    type: 1
+    text: You take out a cigarette and approach the human.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 17
+      choiceText: Hey, excuse me, sorry to bother you, but do you happen to have
+        a lighter? (Social + Subterfuge 4)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 25
+      choiceText: Care for a fucking?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "Oh, you looked better from a distance\u2026 I\u2019ve got to go."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 18
+    previousObjectIndex: 3
+    type: 0
+    text: The human turns around and looks at you confused and you raise the cigarette.
+      He catches on and pulls out a lighter. He flicks it on and you lean in to light
+      the cigarette. You inhale a puff.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 17
+      choiceText: Hey, excuse me, sorry to bother you, but do you happen to have
+        a lighter?
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 25
+      choiceText: Care for a fucking?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "Oh, you looked better from a distance\u2026 I\u2019ve got to go."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 19
+    previousObjectIndex: 3
+    type: 0
+    text: Oh you smell really nice, what cologne do you use?
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 17
+      choiceText: Hey, excuse me, sorry to bother you, but do you happen to have
+        a lighter?
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 25
+      choiceText: Care for a fucking?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "Oh, you looked better from a distance\u2026 I\u2019ve got to go."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 20
+    previousObjectIndex: 3
+    type: 0
+    text: "The human seems confused for a moment, but quick enough confusion is replaced
+      by a certain kind of grin. He\u2019s clearly pleased with himself. He steps
+      closer to you, explaining many a thing about colognes. You can\u2019t say you\u2019re
+      listening."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 17
+      choiceText: Hey, excuse me, sorry to bother you, but do you happen to have
+        a lighter?
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 25
+      choiceText: Care for a fucking?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "Oh, you looked better from a distance\u2026 I\u2019ve got to go."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 21
+    previousObjectIndex: 3
+    type: 0
+    text: "Oh? Interesting\u2026 May I\u2026 sample it again?"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 17
+      choiceText: Hey, excuse me, sorry to bother you, but do you happen to have
+        a lighter?
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 25
+      choiceText: Care for a fucking?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "Oh, you looked better from a distance\u2026 I\u2019ve got to go."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 22
+    previousObjectIndex: 3
+    type: 0
+    text: He smiles and nods. You step closer and lean in. Suddenly he leans in as
+      well and in an instant the two of you are lost in a passionate kiss.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 17
+      choiceText: Hey, excuse me, sorry to bother you, but do you happen to have
+        a lighter?
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 25
+      choiceText: Care for a fucking?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "Oh, you looked better from a distance\u2026 I\u2019ve got to go."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 23
+    previousObjectIndex: 3
+    type: 0
+    text: After what you measure to be a good while you redirect your attention to
+      his neck, kissing and licking with the same passion before. His moans hide
+      the ever so quiet sound of your fangs sinking into his warm, bloody neck.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 17
+      choiceText: Hey, excuse me, sorry to bother you, but do you happen to have
+        a lighter?
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 25
+      choiceText: Care for a fucking?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "Oh, you looked better from a distance\u2026 I\u2019ve got to go."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 24
+    previousObjectIndex: 3
+    type: 0
+    text: You feed on him, satisfying your thirst.
+    isItalic: 0
+    hasReward: 1
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 17
+      choiceText: Hey, excuse me, sorry to bother you, but do you happen to have
+        a lighter?
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 25
+      choiceText: Care for a fucking?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "Oh, you looked better from a distance\u2026 I\u2019ve got to go."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 25
+    previousObjectIndex: 3
+    type: 0
+    text: After having your fill, you hold him in your arms until he comes back to
+      his senses. You give him your cigarette and walk with him for a while until
+      you come across a bench. You seat him onto the bench, give a quick peck on
+      his forehead and leave him be.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 17
+      choiceText: Hey, excuse me, sorry to bother you, but do you happen to have
+        a lighter?
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 25
+      choiceText: Care for a fucking?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "Oh, you looked better from a distance\u2026 I\u2019ve got to go."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 26
+    previousObjectIndex: 3
+    type: 0
+    text: "The human looks at you, then the area behind you as if looking for someone,
+      then he looks at you, his face becoming the physical manifestation of \u201CAre
+      you kidding me."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 17
+      choiceText: Hey, excuse me, sorry to bother you, but do you happen to have
+        a lighter?
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 25
+      choiceText: Care for a fucking?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "Oh, you looked better from a distance\u2026 I\u2019ve got to go."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 27
+    previousObjectIndex: 3
+    type: 0
+    text: "Yeah, that\u2019s a no for me."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 17
+      choiceText: Hey, excuse me, sorry to bother you, but do you happen to have
+        a lighter?
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 25
+      choiceText: Care for a fucking?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "Oh, you looked better from a distance\u2026 I\u2019ve got to go."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 28
+    previousObjectIndex: 3
+    type: 0
+    text: He swiftly turns around and walks away, chuckling to himself something
+      about the neighborhood lunatics.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 17
+      choiceText: Hey, excuse me, sorry to bother you, but do you happen to have
+        a lighter?
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 25
+      choiceText: Care for a fucking?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "Oh, you looked better from a distance\u2026 I\u2019ve got to go."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 4
+    previousObjectIndex: 3
+    type: 0
+    text: With your prey gone, you walk back to the main streets.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 17
+      choiceText: Hey, excuse me, sorry to bother you, but do you happen to have
+        a lighter?
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 25
+      choiceText: Care for a fucking?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "Oh, you looked better from a distance\u2026 I\u2019ve got to go."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 30
+    previousObjectIndex: 3
+    type: 0
+    text: Hey, excuse me, do you have a moment?
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 17
+      choiceText: Hey, excuse me, sorry to bother you, but do you happen to have
+        a lighter?
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 25
+      choiceText: Care for a fucking?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "Oh, you looked better from a distance\u2026 I\u2019ve got to go."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 31
+    previousObjectIndex: 3
+    type: 0
+    text: The person turns around, visibly confused. You run to him.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 17
+      choiceText: Hey, excuse me, sorry to bother you, but do you happen to have
+        a lighter?
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 25
+      choiceText: Care for a fucking?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "Oh, you looked better from a distance\u2026 I\u2019ve got to go."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 30
+    previousObjectIndex: 3
+    type: 1
+    text: The person turns around, visibly confused. You run to him.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 32
+      choiceText: Hi, sorry to bother you on this wonderful evening, and I know this
+        will sound weird, but may I have a bit of your blood for a scientific experiment.
+        (Social + Persuasion 5)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 0
+      skill: 12
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 41
+      choiceText: My sincerest apologies for disturbing your evening, but may I have
+        some of your blood?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: Oh, I mistook you for someone else, my bad.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: fb82511952fd90348a37bc9dbd94673b, type: 3}
+  - nextObjectIndex: 33
+    previousObjectIndex: 3
+    type: 0
+    text: His confusion shifts to worry and he takes a step back. You hurry to explain
+      yourself.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 32
+      choiceText: Hi, sorry to bother you on this wonderful evening, and I know this
+        will sound weird, but may I have a bit of your blood for a scientific experiment.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 0
+      skill: 12
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 41
+      choiceText: My sincerest apologies for disturbing your evening, but may I have
+        some of your blood?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: Oh, I mistook you for someone else, my bad.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 34
+    previousObjectIndex: 3
+    type: 0
+    text: We need blood from completely random residents of this neighborhood and
+      decided that the best way to get that is to simply ask random people at different
+      times of day. I have the equipment needed to take blood quickly, hygienically
+      and painlessly right here.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 32
+      choiceText: Hi, sorry to bother you on this wonderful evening, and I know this
+        will sound weird, but may I have a bit of your blood for a scientific experiment.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 0
+      skill: 12
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 41
+      choiceText: My sincerest apologies for disturbing your evening, but may I have
+        some of your blood?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: Oh, I mistook you for someone else, my bad.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 35
+    previousObjectIndex: 3
+    type: 0
+    text: He is very confused, you can clearly see that much. After a few moments,
+      however, he nods and starts pulling up his sleeve.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 32
+      choiceText: Hi, sorry to bother you on this wonderful evening, and I know this
+        will sound weird, but may I have a bit of your blood for a scientific experiment.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 0
+      skill: 12
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 41
+      choiceText: My sincerest apologies for disturbing your evening, but may I have
+        some of your blood?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: Oh, I mistook you for someone else, my bad.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 36
+    previousObjectIndex: 3
+    type: 0
+    text: "Umm\u2026 we need the blood from a very specific place, your neck, so
+      as to make sure the hormones we need haven\u2019t had the time to completely
+      dissolve into the bloodstream\u2026"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 32
+      choiceText: Hi, sorry to bother you on this wonderful evening, and I know this
+        will sound weird, but may I have a bit of your blood for a scientific experiment.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 0
+      skill: 12
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 41
+      choiceText: My sincerest apologies for disturbing your evening, but may I have
+        some of your blood?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: Oh, I mistook you for someone else, my bad.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 37
+    previousObjectIndex: 3
+    type: 0
+    text: He scans your face as if looking for signs of this being a joke. You make
+      sure your face is nothing but serious and apologetic. He seems to buy this
+      as he gives you easy access to his neck.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 32
+      choiceText: Hi, sorry to bother you on this wonderful evening, and I know this
+        will sound weird, but may I have a bit of your blood for a scientific experiment.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 0
+      skill: 12
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 41
+      choiceText: My sincerest apologies for disturbing your evening, but may I have
+        some of your blood?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: Oh, I mistook you for someone else, my bad.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 38
+    previousObjectIndex: 3
+    type: 0
+    text: "You \u201Cget some tools out\u201D and lean in."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 32
+      choiceText: Hi, sorry to bother you on this wonderful evening, and I know this
+        will sound weird, but may I have a bit of your blood for a scientific experiment.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 0
+      skill: 12
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 41
+      choiceText: My sincerest apologies for disturbing your evening, but may I have
+        some of your blood?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: Oh, I mistook you for someone else, my bad.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 39
+    previousObjectIndex: 3
+    type: 0
+    text: You feed on him, satisfying your thirst.
+    isItalic: 0
+    hasReward: 1
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 32
+      choiceText: Hi, sorry to bother you on this wonderful evening, and I know this
+        will sound weird, but may I have a bit of your blood for a scientific experiment.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 0
+      skill: 12
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 41
+      choiceText: My sincerest apologies for disturbing your evening, but may I have
+        some of your blood?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: Oh, I mistook you for someone else, my bad.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 40
+    previousObjectIndex: 3
+    type: 0
+    text: "You seat him down and wait until he comes to his senses. You hand him
+      a cheap chocolate bar and thank him for his donation. After he\u2019s strong
+      enough to stand up, the two of you shake hands and get on with your lives."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 32
+      choiceText: Hi, sorry to bother you on this wonderful evening, and I know this
+        will sound weird, but may I have a bit of your blood for a scientific experiment.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 0
+      skill: 12
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 41
+      choiceText: My sincerest apologies for disturbing your evening, but may I have
+        some of your blood?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: Oh, I mistook you for someone else, my bad.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 4
+    previousObjectIndex: 3
+    type: 0
+    text: You leave the alley.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 32
+      choiceText: Hi, sorry to bother you on this wonderful evening, and I know this
+        will sound weird, but may I have a bit of your blood for a scientific experiment.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 0
+      skill: 12
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 41
+      choiceText: My sincerest apologies for disturbing your evening, but may I have
+        some of your blood?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: Oh, I mistook you for someone else, my bad.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 42
+    previousObjectIndex: 3
+    type: 0
+    text: His eyes are wide open and steadily filling with fear. No, terror. You
+      hurry to explain yourself.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 32
+      choiceText: Hi, sorry to bother you on this wonderful evening, and I know this
+        will sound weird, but may I have a bit of your blood for a scientific experiment.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 0
+      skill: 12
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 41
+      choiceText: My sincerest apologies for disturbing your evening, but may I have
+        some of your blood?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: Oh, I mistook you for someone else, my bad.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 43
+    previousObjectIndex: 3
+    type: 0
+    text: "Let me explain: I\u2019m a creature of the night and as such need blood
+      to sustain myself. Your lifeblood has the most alluring of scents and I would
+      very much like to have a taste, if that would by any means be fine with you."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 32
+      choiceText: Hi, sorry to bother you on this wonderful evening, and I know this
+        will sound weird, but may I have a bit of your blood for a scientific experiment.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 0
+      skill: 12
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 41
+      choiceText: My sincerest apologies for disturbing your evening, but may I have
+        some of your blood?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: Oh, I mistook you for someone else, my bad.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 44
+    previousObjectIndex: 3
+    type: 0
+    text: "Before you can even finish your sentence, the man has turned around and
+      started running away. You\u2019re not sure if you\u2019ve ever seen any human
+      run with such speed."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 32
+      choiceText: Hi, sorry to bother you on this wonderful evening, and I know this
+        will sound weird, but may I have a bit of your blood for a scientific experiment.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 0
+      skill: 12
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 41
+      choiceText: My sincerest apologies for disturbing your evening, but may I have
+        some of your blood?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: Oh, I mistook you for someone else, my bad.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 4
+    previousObjectIndex: 3
+    type: 0
+    text: You decided to give up on feeding and walk back to the main streets.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 32
+      choiceText: Hi, sorry to bother you on this wonderful evening, and I know this
+        will sound weird, but may I have a bit of your blood for a scientific experiment.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 0
+      skill: 12
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 41
+      choiceText: My sincerest apologies for disturbing your evening, but may I have
+        some of your blood?
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: Oh, I mistook you for someone else, my bad.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 4
+    previousObjectIndex: 3
+    type: 1
+    text: You eye the buildings surrounding you and notice a few potential points
+      of entry.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 46
+      choiceText: "There\u2019s an open window there, I could pretty easily just
+        climb up and sneak in. (Physical + Stealth 4)"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 1
+      skill: 1
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 49
+      choiceText: The lock on that balcony door will most likely break simply by
+        looking at it hard enough. (Mental + Larceny 4)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 2
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 52
+      choiceText: "Eh, forget it, it\u2019s not worth the trouble."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 47
+    previousObjectIndex: 3
+    type: 0
+    text: You climb up to the window and make your way in without making a sound.
+      You find yourself in a single bedroom of a student, most likely in early to
+      mid-20s. You hear the person sleeping in their bed. Quietly, like the creature
+      of the night you are, you make your way to the bed and lean in to feast.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 46
+      choiceText: "There\u2019s an open window there, I could pretty easily just
+        climb up and sneak in."
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 1
+      skill: 1
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 49
+      choiceText: The lock on that balcony door will most likely break simply by
+        looking at it hard enough.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 2
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 52
+      choiceText: "Eh, forget it, it\u2019s not worth the trouble."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 48
+    previousObjectIndex: 3
+    type: 0
+    text: You feed on him, satisfying your thirst.
+    isItalic: 0
+    hasReward: 1
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 46
+      choiceText: "There\u2019s an open window there, I could pretty easily just
+        climb up and sneak in."
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 1
+      skill: 1
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 49
+      choiceText: The lock on that balcony door will most likely break simply by
+        looking at it hard enough.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 2
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 52
+      choiceText: "Eh, forget it, it\u2019s not worth the trouble."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 4
+    previousObjectIndex: 3
+    type: 0
+    text: Without a sound you leave the same way you came, making sure you leave
+      no traces of your visit. Once outside of the window you swiftly leap down and
+      make your way back to the main streets.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 46
+      choiceText: "There\u2019s an open window there, I could pretty easily just
+        climb up and sneak in."
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 1
+      skill: 1
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 49
+      choiceText: The lock on that balcony door will most likely break simply by
+        looking at it hard enough.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 2
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 52
+      choiceText: "Eh, forget it, it\u2019s not worth the trouble."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 50
+    previousObjectIndex: 3
+    type: 0
+    text: ust as you expected, the lock gives in with little to no resistance. You
+      find yourself in a somewhat run-down living room. Empty cans and other trash
+      litter the apartment. On the couch you see a person sleeping, with the tv still
+      on, showing some rerun of an old movie. Quietly, like the creature of the night
+      you are, you make your way to the couch and lean in to feast.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 46
+      choiceText: "There\u2019s an open window there, I could pretty easily just
+        climb up and sneak in."
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 1
+      skill: 1
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 49
+      choiceText: The lock on that balcony door will most likely break simply by
+        looking at it hard enough.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 2
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 52
+      choiceText: "Eh, forget it, it\u2019s not worth the trouble."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 51
+    previousObjectIndex: 3
+    type: 0
+    text: You feed on him, satisfying your thirst.
+    isItalic: 0
+    hasReward: 1
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 46
+      choiceText: "There\u2019s an open window there, I could pretty easily just
+        climb up and sneak in."
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 1
+      skill: 1
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 49
+      choiceText: The lock on that balcony door will most likely break simply by
+        looking at it hard enough.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 2
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 52
+      choiceText: "Eh, forget it, it\u2019s not worth the trouble."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 0e9f066e179ba374d947c633cea31bf6, type: 3}
+  - nextObjectIndex: 4
+    previousObjectIndex: 3
+    type: 0
+    text: Without a sound you leave the way you came, making sure you leave no traces
+      of your visit. From the balcony you swiftly leap down and make your way back
+      to the main streets.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 46
+      choiceText: "There\u2019s an open window there, I could pretty easily just
+        climb up and sneak in."
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 1
+      skill: 1
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 49
+      choiceText: The lock on that balcony door will most likely break simply by
+        looking at it hard enough.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 2
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 52
+      choiceText: "Eh, forget it, it\u2019s not worth the trouble."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 4
+    previousObjectIndex: 3
+    type: 0
+    text: You walk back to the main streets.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices:
+    - nextObjectIndex: 46
+      choiceText: "There\u2019s an open window there, I could pretty easily just
+        climb up and sneak in."
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 1
+      skill: 1
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 49
+      choiceText: The lock on that balcony door will most likely break simply by
+        looking at it hard enough.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 2
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 52
+      choiceText: "Eh, forget it, it\u2019s not worth the trouble."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}

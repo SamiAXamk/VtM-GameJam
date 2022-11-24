@@ -1,0 +1,602 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: Cathedral
+  m_EditorClassIdentifier: 
+  eventId: 9
+  actionPoints: 3
+  boolListIndex: 16
+  eventLocation: 2
+  repeatable: 0
+  mandatory: 1
+  done: 0
+  description: Infiltrate the Cathedral
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: 0ab97c69c3467374698a308512f7d240, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: "You\u2019ve decided to return to the Cathedral against everything your
+      instincts keep telling you. Standing where you stood before, you stare at the
+      monument of your destruction and contemplate."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 2
+    previousObjectIndex: 0
+    type: 0
+    text: "(This might as well be one of the most protected places against my kind\u2026
+      Going in might be suicide.. I\u2019m still not sure if I should do it or not)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "(This might as well be one of the most protected places against my kind\u2026
+      Going in might be suicide.. I\u2019m still not sure if I should do it or not)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 25
+      choiceText: (Last chance to leave now.)
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 11
+      choiceText: "(Fuck it, I\u2019m not turning back now. I\u2019m gonna just go
+        in.)"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 26
+      choiceText: "(Sneaking could work again\u2026)"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 1
+      skill: 1
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: Sneaking does seem to work, you find yourself undetected underneath the
+      very same ledge you climbed up just a few nights ago. You try climbing it again.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 4
+      choiceText: Physical + Athletic 4 (Yes, i got there.)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 1
+      skill: 5
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 24
+      choiceText: Oh no...
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "The maintenance window seems to be closed and locked this time. You attempt
+      to pick it. \r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 5
+      choiceText: Mental + Larceny 4 (Using right tools...)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 2
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 23
+      choiceText: (Why doesn't it open?!)
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 6
+    previousObjectIndex: 0
+    type: 0
+    text: You manage to open and slip in through the maintenance window undetected.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 7
+    previousObjectIndex: 0
+    type: 0
+    text: "After slipping indoors and wandering around the cathedral for a good minute,
+      you run into a desk in one of the smaller, more hidden rooms. After scuffling
+      through the papers, you find a bunch of plans, all of them seeming to mention
+      a mausoleum. It\u2019s said to hold the Second Inquisition\u2019s greatest
+      weapon against the kindred. \r\nYou can investigate a little bit more, but
+      it\u2019s risky being there as it is. \r"
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 24
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: I may investigate.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 8
+      choiceText: Mental + Investigation 5 (I want to investigate further)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 2
+      skill: 6
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 25
+      choiceText: No more time to waste.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 9
+    previousObjectIndex: 0
+    type: 0
+    text: 'Among the papers you find an expired keycard to one of the large skyscrapers
+      downtown, upon further investigation, you find more papers with mentions of
+      the same address. It has to be the new base of the Second Inquisition.
+
+'
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 28
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 25
+    previousObjectIndex: 0
+    type: 0
+    text: 'You find nothing more worth your time in the cathedral. '
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 11
+    previousObjectIndex: 0
+    type: 0
+    text: "You\u2019ve decided to barge in straight into the enemy\u2019s nest from
+      the front door. It must\u2019ve felt like a good idea at the time, but the
+      moment your presence is noticed inside the cathedral, you\u2019re surrounded
+      by vampire hunters in every direction."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "You\u2019ve decided to barge in straight into the enemy\u2019s nest from
+      the front door. It must\u2019ve felt like a good idea at the time, but the
+      moment your presence is noticed inside the cathedral, you\u2019re surrounded
+      by vampire hunters in every direction."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 12
+      choiceText: (Mental + Firearms 4) Shoot
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 13
+      choiceText: (Physical + Brawl 5) Pull out your sword and fight
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 1
+      skill: 4
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 17
+      choiceText: Stand your ground
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 14
+    previousObjectIndex: 0
+    type: 0
+    text: 'Your bullet seems to stop one of the vampire hunters, gore splattering
+      on the walls of the cathedral. '
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 14
+    previousObjectIndex: 0
+    type: 0
+    text: "The skillful swing of your sword slices through one of the vampire hunters
+      with ease and precision. They won\u2019t get up again.\r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: It's not all yet...
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 15
+      choiceText: (Mental + Firearms 4) Readjust your aim, and go for another Inquisitor
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 16
+      choiceText: (Physical + Brawl 5) Defend yourself with the sword.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 1
+      skill: 4
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 18
+      choiceText: Take hit helplessly.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 20
+    previousObjectIndex: 0
+    type: 0
+    text: Your shot finds its way to one of the Inquisitors, piercing their forehead.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 20
+    previousObjectIndex: 0
+    type: 0
+    text: With another precise swing at one of the inquisitors barreling towards
+      you, you cut them down.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 12
+    previousObjectIndex: 0
+    type: 0
+    text: Staying in one place doesn't help much. You take 3 damage.
+    isItalic: 1
+    hasReward: 1
+    rewardType: 6
+    rewardSkill: 0
+    rewardValue: 3
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 14
+    previousObjectIndex: 0
+    type: 0
+    text: This might be the end... You take 3 damage.
+    isItalic: 1
+    hasReward: 1
+    rewardType: 6
+    rewardSkill: 0
+    rewardValue: 3
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: That has to be the end of them...
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 21
+      choiceText: "(Mental + Firearms 5) Continue to try and shoot down as many of
+        them as you can, it\u2019s life or death"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 2
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 21
+      choiceText: "(Physical + Brawl 5) You\u2019re feeling a little exhausted but
+        you have to continue and try to get as many of them as you can with your
+        sword"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 1
+      skill: 4
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 20
+      choiceText: 'Final death is approaching... '
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 1
+      skill: 4
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 20
+    previousObjectIndex: 0
+    type: 0
+    text: It seems to be the end.
+    isItalic: 0
+    hasReward: 1
+    rewardType: 6
+    rewardSkill: 0
+    rewardValue: 5
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 22
+    previousObjectIndex: 0
+    type: 0
+    text: "(It seems that most of them are dead\u2026 I might actually get in to
+      investigate now.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 7
+    previousObjectIndex: 0
+    type: 0
+    text: '(Shit! Sounds like more are coming soon, I need to act fast!)
+
+'
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 12
+    previousObjectIndex: 0
+    type: 0
+    text: "Your incompetence has alerthed the Inquisitors to your precense. They\u2019re
+      coming. \r\nSuddenly you\u2019re surrounded by the Second Inquisition from
+      every direction."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: You leave empty handed.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: You decide to leave quietly.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "(Sneaking could work again\u2026)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 3
+      choiceText: Physical + Stealth 4 (Let's go)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 1
+      skill: 1
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 24
+      choiceText: Oh no...
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}

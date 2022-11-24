@@ -1,0 +1,526 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: Mausoleum
+  m_EditorClassIdentifier: 
+  eventId: 24
+  actionPoints: 2
+  boolListIndex: 24
+  eventLocation: 6
+  repeatable: 0
+  mandatory: 1
+  done: 0
+  description: Visit Mausoleum
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: 95858eec322c66241bf61c47fd207f7e, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: "(A vampire in a graveyard\u2026 Talk about tired cliches. Heh. Maybe no
+      one will be looking for one in a stupidly obvious place like this)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: You skulk around the graveyard for a while, looking for the mausoleum without
+      much luck. You stop for a moment to get a better idea of your surroundings
+      instead of wandering around aimlessly.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 2
+      choiceText: Is that movement? (Mental + Awareness 3)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 3
+      boolIndex: 0
+      attribute: 2
+      skill: 9
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 3
+      choiceText: Continue.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 15
+    previousObjectIndex: 0
+    type: 0
+    text: As you survey your surroundings, a slight movement in the distance catches
+      your eye. You see a humanoid figure walking about in the dark cemetery, seemingly
+      aimlessly at a slow pace. You get the feeling you should steer clear.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: Your survey of the surroundings is cut short, as you jump when a hand grasps
+      your shoulder. Who? How did they get so close without you noticing?
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 5
+    previousObjectIndex: 0
+    type: 0
+    text: "Mystery man: \u201CHeya feller! Whatcha doing out here at this hour?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 6
+    previousObjectIndex: 0
+    type: 0
+    text: He takes his hand off of your shoulder. He stands an inch or two shorter
+      than you and does not look all that strong. Something about him feels inexplicably
+      dangerous, however.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 7
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CI was just looking for the grave of a relative. You know how
+      it is in the dark hours of the night when you start missing what you have lost.
+      I just had to come here to feel closer.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Mystery Man: \u201CI see. Care for a smoke, friend?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 8
+      choiceText: Take the cigarette
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 12
+      choiceText: Refuse
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 9
+    previousObjectIndex: 0
+    type: 0
+    text: The man offers you a cigarette, which you accept. As you take it from him,
+      your hands brush together briefly. You see his eyes narrow for a fleeting instant.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 10
+    previousObjectIndex: 0
+    type: 0
+    text: "Mystery Man: \u201CSay, your hands are a bit cold there, buddy. Shouldn't
+      go around without gloves at night this time of the year. Might get arthritis.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 11
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CI completely forgot! I\u2019ll be fine this time, I\u2019ll
+      just keep my hands in my pockets.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 12
+    previousObjectIndex: 0
+    type: 0
+    text: "The man\u2019s face distorts in disgust and rage."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 13
+    previousObjectIndex: 0
+    type: 0
+    text: "Mystery Man: \u201COh, cut the crap. I know what you are and I won\u2019t
+      suffer your presence on hallowed ground!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: The man reaches into his pocket. You are quite certain the hand is coming
+      out of there with a weapon in it.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 14
+      choiceText: Fight (Physical + Brawl 4)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 1
+      skill: 3
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 25
+      choiceText: Flight
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 15
+    previousObjectIndex: 0
+    type: 0
+    text: "You strike the man square in the jaw before he has time to pull out his
+      piece. Cursing, he retreats into the shadows. You don\u2019t think he\u2019ll
+      bother you for a while."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 16
+    previousObjectIndex: 0
+    type: 0
+    text: After searching around for a little while longer you see a small building
+      of stone, towering over the more usual gravestones.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 17
+    previousObjectIndex: 0
+    type: 0
+    text: "(That\u2019s got to be the place. I don\u2019t think they\u2019d call
+      it THE mausoleum if there were plenty to go around.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: You approach the heavy stone door to see it firmly locked.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 18
+      choiceText: Open the lock (Mental + Larceny 4)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 2
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 20
+      choiceText: Try the lock
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 19
+    previousObjectIndex: 0
+    type: 0
+    text: You fiddle around with the lock and open it with ease. The heavy door creaks
+      open, only a dim little swathe of the streetlights shedding light into the
+      burial chamber
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: Vicious looking tools and old tomes are strewn about the place. Some of
+      the more, some of them less organized. The tools are of no use to you, they
+      seem the types to be mostly used for either hunting or interrogating vampires.
+      They make your skin crawl. The books and scrolls seem to be of more interest
+      to you.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 21
+      choiceText: Search through the place (Mental + Academics 3)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 3
+      boolIndex: 0
+      attribute: 2
+      skill: 6
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 0
+      choiceText: Look around
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: After fiddling around with the lock for a while you realize picking it
+      is beyond you. Good effort, but you have no choice but the turn back to the
+      streets empty handed.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 22
+    previousObjectIndex: 0
+    type: 0
+    text: You pour over the scriptures, deciphering of them what you can. They speak
+      of an ancient relic, The Cross of St. Ongwynne, which is rumoured to have the
+      ability to destroy any vampire, instantly and at will, despite their age, strength,
+      or any other factor. You feel as though the bottom of your gut just fell through
+      the floor.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "(Fuck, that sounds bad. Something THAT powerful CAN\u2019T be real, right?
+      There\u2019s got to be something more. The rest of the tome is written in a
+      different code.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 23
+      choiceText: Look more into it (Mental + Occult 6)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 6
+      boolIndex: 0
+      attribute: 2
+      skill: 7
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 24
+      choiceText: See if there's anything else
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: You know enough about the hunters and their codes to read the rest of the
+      way. The second half seems to be written by a different person altogether,
+      annotations on the previous text. It details how there is no proof of the existence
+      of the cross. It seems that, after all, it is just a legend and nothing more.
+      This knowledge puts your mind at ease. You take your leave into the dark of
+      the night.
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 26
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: "You leaf through the scriptures, but their content and the cipher they
+      are written in are beyond you. There\u2019s nothing more for you here, and
+      thus, you take your leave into the veil of the night, no wiser than when you
+      came."
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 25
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: "You bolt off into the night. You\u2019ve got to get away before he gets
+      the better of you. The man shouts indistinctly after you, and bullets whistle
+      past your head. You see the cemetery gate as a flash of pain pierces your shoulder,
+      a bullet striking clean through it. You get away, but you don\u2019t think
+      it\u2019s a good idea to come back. They know your face now."
+    isItalic: 1
+    hasReward: 1
+    rewardType: 6
+    rewardSkill: 0
+    rewardValue: 2
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: You leave the mausoleum.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}

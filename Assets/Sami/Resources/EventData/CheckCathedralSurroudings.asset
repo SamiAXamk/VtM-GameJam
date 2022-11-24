@@ -1,0 +1,498 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: CheckCathedralSurroudings
+  m_EditorClassIdentifier: 
+  eventId: 12
+  actionPoints: 2
+  boolListIndex: 6
+  eventLocation: 2
+  repeatable: 1
+  mandatory: 0
+  done: 0
+  description: Check Cathedral Surroundings
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: 0ab97c69c3467374698a308512f7d240, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: "You arrive at the local Cathedral, still maintaining a safe enough distance
+      in your mind from the building. The stained glass windows are hard to peek
+      in from, especially from this distance. Everything seems quiet and calm, not
+      necessarily a good thing. \r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 2
+    previousObjectIndex: 0
+    type: 0
+    text: (I have a bad feeling about this..)
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: (I have a bad feeling about this..)
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 3
+      choiceText: (Mental + Awareness 4)(Wait, is that movement?)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 10
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: '(Nothing seems out of the ordinary.) '
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 6
+      choiceText: (Fuck this, this place is creeping me out) (Leave)
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "(This place is infested with vampire hunters\u2026seems heavily guarded.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 18
+      choiceText: (Physical + Stealth 5)(I might sneak closer.)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 1
+      skill: 1
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 9
+      choiceText: '(I should go take a closer look) '
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 22
+      choiceText: (Seems dangerous, I should probably leave.)
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: (I could probably climb that ledge if i tried)
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 5
+      choiceText: (Physics + Athletics 4) Yes! I got here.
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 1
+      skill: 5
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 7
+      choiceText: Damn it! Not this time.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 6
+    previousObjectIndex: 0
+    type: 0
+    text: "You manage to climb up the ledge, there\u2019s a maintenance window that\u2019s
+      left slightly open close to you."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 22
+    previousObjectIndex: 0
+    type: 0
+    text: "(I\u2019ve made it really far, but it\u2019s too dangerous now, I should
+      probably return later.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 8
+    previousObjectIndex: 0
+    type: 0
+    text: Your foot slips on your way up, you fall down, crashing on top of a small
+      memorial altar.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 9
+    previousObjectIndex: 0
+    type: 0
+    text: 'You quickly get up, but before you know it, a barrel is pressed against
+      your back. '
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 12
+    previousObjectIndex: 0
+    type: 0
+    text: "\u201CYou have some nerve showing your face here you disgusting abomination.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 11
+    previousObjectIndex: 0
+    type: 0
+    text: "Peeking through the window, you see guards that clearly don\u2019t have
+      any business inside a cathedral, especially at this time of the night. They
+      seem to not have noticed you yet. "
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Peeking through the window, you see guards that clearly don\u2019t have
+      any business inside a cathedral, especially at this time of the night. They
+      seem to not have noticed you yet. "
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 20
+      choiceText: (Mental + Academics 4) (Those guards seem to be using strange symbols,
+        I should investigate more.)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 7
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 18
+      choiceText: "(I\u2019ll need to investigate more..)"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "\u201CYou have some nerve showing your face here you disgusting abomination.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 13
+      choiceText: (-3 health) Escape.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 15
+      choiceText: (Physical + Brawl 4) Fight!
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 1
+      skill: 4
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 14
+      choiceText: (Physical + Brawl 6) Fight furiously!
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 6
+      boolIndex: 0
+      attribute: 1
+      skill: 4
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: You successfully escaped the grasp of the Second Inquisition. Not without
+      a scuff though, while your unliving still continues, you sustained some damage
+      to your back from the array of bullets launched in your direction.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 16
+    previousObjectIndex: 0
+    type: 0
+    text: 'Fighting back paid off, for now. You manage to dodge the sword swinging
+      in your direction, and actually land a swing or two on the bastard yourself
+      too. '
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 16
+    previousObjectIndex: 0
+    type: 0
+    text: "You fight back, but it\u2019s not enough, eventually a bullet catches
+      your side."
+    isItalic: 0
+    hasReward: 1
+    rewardType: 6
+    rewardSkill: 0
+    rewardValue: 3
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: Here comes the next one...
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 21
+      choiceText: 'Escape '
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 22
+      choiceText: (Physical + Athletic 3) Retreat
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 3
+      boolIndex: 0
+      attribute: 1
+      skill: 5
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 17
+      choiceText: (Physical + Brawl 6) Continue fighting back
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 11
+    previousObjectIndex: 0
+    type: 0
+    text: "You manage to catch the Second Inquisition goon off guard, and he seems
+      to lose his balance, it\u2019s your time to strike and destroy the mortal."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: f62c3a001c35abc4caf40b150467741f, type: 3}
+  - nextObjectIndex: 19
+    previousObjectIndex: 0
+    type: 0
+    text: "(This is a fucking suicide mission.. But I could try to get inside and
+      get a bit of information\u2026)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: "You\u2019ve successfully managed to make your way into the haven of the
+      enemy. It wasn\u2019t easy, but now it\u2019s time to focus on your job"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 19
+    previousObjectIndex: 0
+    type: 0
+    text: "(This is a fucking suicide mission.. But I could try to get inside and
+      get a bit of information\u2026)"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 17
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: (Huh, I escaped, but I might come back again later)
+    isItalic: 0
+    hasReward: 1
+    rewardType: 6
+    rewardSkill: 0
+    rewardValue: 3
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: (Huh, I escaped, but I might come back again later)
+    isItalic: 0
+    hasReward: 0
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 17
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}

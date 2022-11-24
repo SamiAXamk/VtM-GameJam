@@ -1,0 +1,315 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: VisitHaven_FirstTime
+  m_EditorClassIdentifier: 
+  eventId: 7
+  actionPoints: 1
+  boolListIndex: 0
+  eventLocation: 0
+  repeatable: 0
+  mandatory: 1
+  done: 1
+  description: Visit haven for the first time
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: 93250ef213bae0d4580c9615e0f7ac50, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: "(I\u2019ve seen my fair share of dim, dank dumps. The mildew and water
+      damage alone are enough to get this sty condemned.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 2
+    previousObjectIndex: 0
+    type: 0
+    text: "(Heh... sorta reminds me of my fledgling days. Ain\u2019t the worst one
+      I\u2019ve been, by far, but not exactly my first choice of digs either. Well,
+      beggars can\u2019t be choosers I s\xB4pose.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "(Well\u2026 how should I approach?)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 3
+      choiceText: Check for any security threats (Mental + Investigation 3)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 3
+      boolIndex: 0
+      attribute: 2
+      skill: 6
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 7
+      choiceText: Walk in
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: "You first take a walk around the block, eyeing the building from a bit
+      further away. Nothing out of the ordinary seems to stick out so you\u2019re
+      more confident to take a closer look."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 5
+    previousObjectIndex: 0
+    type: 0
+    text: "There\u2019s a few cracks on the wall, sure but all of them seem easy
+      enough to fix. Similarly the windows should be easy enough to cover up to block
+      sight lines and sunlight. You do make a mental note that the building only
+      seems to have one exit."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 6
+    previousObjectIndex: 0
+    type: 0
+    text: "(Easy to defend\u2026 although hard to flee. I suppose I could slip through
+      the window if the going gets tough. Maybe I should look into making a new exit
+      for it someday however\u2026 Regardless, this'll have to do for now.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 7
+    previousObjectIndex: 0
+    type: 0
+    text: "You take some more time to carefully check through the Haven once more
+      until you\u2019re almost certain this should be a safe place for you to stay
+      in."
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 18
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: "Taking a couple of steps forward, you walk to the door and open it, stepping
+      inside the dark and grimy apartment. You furrow your brows momentarily at the
+      sight but soon enough shake your head. No time to wallow about an ugly Haven,
+      you should really get ready to meet the \u201Cauthorities\u201D now."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "(How the hell is it this late already..? Only time for one thing now,
+      so what\u2019s my best shot..?\u201D)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 9
+      choiceText: Check the local news
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 12
+      choiceText: Freshen make-up
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 14
+      choiceText: Suit up
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 10
+    previousObjectIndex: 0
+    type: 0
+    text: "Hastily you boot up the computer in the corner of the room. You seem to
+      be aware you shouldn\u2019t own, yet alone use one, but you honestly couldn\u2019t
+      give a rat\u2019s ass about what those big guys think you should do. You need
+      to be aware of what\u2019s happening around, for fuck\u2019s sake."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 11
+    previousObjectIndex: 0
+    type: 0
+    text: "(I swear I\u2019m not going to be finding anything useful in the midst
+      of all this useless political nonsense\u2026 I honestly couldn\u2019t care
+      less about who\u2019s who of the noble court of the supreme motherfuckers and
+      how much they\u2019re written about. I suppose intelligence is the currency
+      of today, as they say.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 15
+    previousObjectIndex: 0
+    type: 0
+    text: "(Wait\u2026 what\u2019s this? Huh\u2026 this should give me a negotiating
+      edge.)"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 0
+    rewardSkill: 9
+    rewardValue: 1
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 13
+    previousObjectIndex: 0
+    type: 0
+    text: "(Beats me why the fuck these guys want me to put on extra powder. How
+      much paler can I get? I\u2019m a damn vampire for fuck\u2019s sake.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 15
+    previousObjectIndex: 0
+    type: 0
+    text: "(Whatever\u2026 this ought to help me blend in with the dandies.)"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 0
+    rewardSkill: 14
+    rewardValue: 1
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 15
+    previousObjectIndex: 0
+    type: 0
+    text: "(Christ. The suit\u2019s stiffer than a sleazer\u2019s cock in a sex shop
+      backroom. How anyone moves comfortably in this shit is beyond me. I look damn
+      good in it though, gotta admit.)"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 0
+    rewardSkill: 16
+    rewardValue: 1
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 16
+    previousObjectIndex: 0
+    type: 0
+    text: "(Right\u2026 I think that should be enough. Gotta get going before I\u2019m
+      late, that wouldn\u2019t sell a very good image of me to the damn nobility.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: "Before you close the door, you glance through the small apartment once
+      more. With a shrug you close and lock the door, fixing your posture. You\u2019d
+      come back for anything you forgot and maybe then you\u2019d have more time
+      to tinker with your toys, too."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}

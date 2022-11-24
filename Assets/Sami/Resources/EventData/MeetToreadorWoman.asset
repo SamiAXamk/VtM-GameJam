@@ -1,0 +1,634 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: MeetToreadorWoman
+  m_EditorClassIdentifier: 
+  eventId: 5
+  actionPoints: 2
+  boolListIndex: 12
+  eventLocation: 11
+  repeatable: 0
+  mandatory: 1
+  done: 0
+  description: Meet Toreador Woman
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: 71efc820f8940fc408da9ae0a454b618, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: "(This woman, Lucretia Fayette, is somehow connected to the murder of that
+      high-ranking ghoul. Which means she\u2019s not to be messed around with, I
+      shouldn\u2019t let my guard down.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 2
+    previousObjectIndex: 0
+    type: 0
+    text: You arrive to the address you were given. It seems to be a high-end apartment
+      building. You make your way in and find the apartment you were looking for.
+      Finding it was relatively easy with the guard posted before the door.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 0
+    text: You explain your situation and the reasons behind your visit. The guard
+      lets you in, and you find yourself in a highly-decorated apartment straight
+      from a century ago or so...
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: "Further in, sitting in what you judge to be an antique lounge chair you
+      find the toreador you were looking for. She\u2019s beautiful with her long
+      dark hair descending onto her revealing yet classy neo-Victorian dress. With
+      grace and beauty, she stands up to greet you."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 5
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CAh, I\u2019ve been expecting you, detective. I am Lucretia
+      Fayette, a Toreador of highest regard.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 6
+    previousObjectIndex: 0
+    type: 0
+    text: She gives out her hand, seemingly expecting you to take and kiss it.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: She gives out her hand, seemingly expecting you to take and kiss it.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 7
+      choiceText: Take the hand and gently give it a peck and compliment her.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 11
+      choiceText: "Don\u2019t kiss the hand, cut straight to business."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 8
+    previousObjectIndex: 0
+    type: 0
+    text: You take her hand to yours and lean in to give her hand the kiss. Her skin
+      feels soft to your touch.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 9
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CYour ladyship is a sight to behold on this lovely evening.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 10
+    previousObjectIndex: 0
+    type: 0
+    text: For a brief moment she seems pleased with your comment. Suddenly, however,
+      her face hardens and she pulls her hand back, lighting a cigarette. She takes
+      a deep breath and blows the smoke out.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 11
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CYou don\u2019t look like someone who just goes around the
+      town flirting. Pray, state your business for I have mine to attend to.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 12
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CYes, indeed. I am a detective working on a case which, if left
+      unresolved, would write the end for this city and probably the kindred society
+      as we know it. There\u2019s been a murder connected to the case, and you\u2019ve
+      been connected to the murdered.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 13
+    previousObjectIndex: 0
+    type: 0
+    text: As you explain the situation, you study her face for any signs which could
+      give her away. You find none, she simply takes a puff of the cigarette before
+      nodding.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 14
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CUnfortunately for the detective I have no clue as to what
+      you may be on about. I suggest you cut to the chase or leave me to my own affairs.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 15
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CA ghoul of a high-ranking kindred, Dylan Callahan, has been
+      murdered. We have plenty of leads and are investigating them, but we did also
+      find a calendar marking from last week. They were supposed to meet with you.
+      Did that meeting take place?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 16
+    previousObjectIndex: 0
+    type: 0
+    text: "As you speak, Fayette\u2019s eyes narrow to thin lines. She\u2019s clearly
+      not happy about the direction this conversation is going\u2026 Interesting."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 17
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CAm I being accused of murder? In my own house? The amount
+      of disrespect is staggering!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 18
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CI\u2019m accusing you of nothing, merely asking if you met
+      with the victim.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 19
+    previousObjectIndex: 0
+    type: 0
+    text: With her eyes dancing around your face like little thunderbolts, she takes
+      a puff of the cigarette, holding the smoke in for a while before letting it
+      out. She sits back down to the chair. She motions you to sit down next to her.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: With her eyes dancing around your face like little thunderbolts, she takes
+      a puff of the cigarette, holding the smoke in for a while before letting it
+      out. She sits back down to the chair. She motions you to sit down next to her.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 20
+      choiceText: Sit down
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 22
+      choiceText: Do not sit
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 21
+    previousObjectIndex: 0
+    type: 0
+    text: "You sit next to her and she immediately takes your hand to hers, caressing
+      through all the little scars you\u2019ve managed to collect throughout the
+      years."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 24
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CYes, I met with the ghoul, but he was very much alive and
+      well at the time. I for one have no idea who could\u2019ve done such a thing,
+      although I have heard rumors of increased religious activity amongst humans.
+      Maybe those idiotic fanatics found our man?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 23
+    previousObjectIndex: 0
+    type: 0
+    text: "You don\u2019t move an inch. Fayette lets out a disappointed sigh and
+      leans back. She takes a long, quiet puff and for a few moments all you could
+      hear is the fireplace burning and crackling."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 24
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CYou\u2019re all business I see. But yes, I did meet with
+      the ghoul, he was, however, very much alive at the time. I for one have no
+      idea who could\u2019ve done such a thing, although I have heard rumors of increased
+      religious activity amongst humans. Maybe those idiotic fanatics found your
+      victim?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 25
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CHmm\u2026 maybe. In any case, can you think of anything else
+      that may be of use? In my experience it\u2019s the smallest of details that
+      solve cases.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: Fayette looks thoughtful before she suddenly gets up and walks behind you
+      to the other end of the room, next to a full height window. Through the window
+      you can see a constantly buzzing cityscape, blissfully unaware of the danger
+      looming. You stand up as well. With one swift pull she closes the curtain and
+      turns to face you, her beautiful face twisted with worry. She starts walking
+      towards you.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 27
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CTo be completely honest with you Detective, I am worried
+      for my own well-being. I\u2019ve heard rumors of games and schemes on levels
+      way beyond anything you nor me could imagine. The death of this ghoul only
+      amplifies and gives base to my fears. I require protection of some capable,
+      such as yourself.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 28
+    previousObjectIndex: 0
+    type: 0
+    text: She puts her arms onto your shoulders, pressing herself against you. The
+      flames of the fireplace dance on her worry filled eyes.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: She puts her arms onto your shoulders, pressing herself against you. The
+      flames of the fireplace dance on her worry filled eyes.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 29
+      choiceText: "\u201CDo not worry, I will protect you!\u201D (Social + Subterfuge
+        4)"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 35
+      choiceText: "\u201CYou\u2019re in no more danger than usual, no need to worry.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 30
+    previousObjectIndex: 0
+    type: 0
+    text: "The worry on the Fayette\u2019s face is replaced by relief and admiration.
+      She caresses your cheekbone before sitting back down onto the chair. She tosses
+      her now well-used cigarette into the fireplace and lights up another one."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 31
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CThank you, Detective. You have no idea how reassuring it
+      is to hear that, with trust being a valuable commodity during times like these.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 32
+    previousObjectIndex: 0
+    type: 0
+    text: You nod. The two of you look at each other, as if to make sure there are
+      no games being played. Suddenly she speaks.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 33
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CI believe you had a city and its damsel to rescue. If there\u2019s
+      nothing else you wish to ask of me right now, the guard on the front can show
+      you out. Should you have a need for me, you know where to find me.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 38
+    previousObjectIndex: 0
+    type: 0
+    text: She smiles as she finishes her sentence. You nod and turn around to leave.
+      From behind you can hear Fayette taking a deep breath of the cigarette before
+      slowly blowing it out.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: "You knock on the front door and the guard lets you out. You\u2019re not
+      sure if you gained anything of use from the visit, although you doubt Lucretia
+      Fayette could\u2019ve murdered the ghoul. With these thoughts in mind you head
+      to the streets for you still have the city to save."
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 19
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 36
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette\u2019s clearly unimpressed. With one swift motion she disappears
+      back into the lounge of hers and throws her now well-used cigarette into the
+      fireplace, lighting up another one. Before the guard can escort you out, you
+      hear her voice from behind you."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 37
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CI believe you had a city rescue. If there\u2019s nothing
+      else you wish to ask of me right now, the guard on the front can show you out.
+      Should you have a need for me, you know where to find me.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}
+  - nextObjectIndex: 38
+    previousObjectIndex: 0
+    type: 0
+    text: You nod and turn around to leave. From behind you can hear Fayette taking
+      a deep breath of the cigarette before slowly blowing it out. Before the guard
+      can escort you out, you hear her voice from behind you.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 34
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201COh, and in light of recent events, please be extra mindful
+      of whom you trust. I couldn\u2019t bear if something were to happen to you,
+      for the sake of this city, of course.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: cbebd1bfff0139242a4e0c05998e4d5c, type: 3}

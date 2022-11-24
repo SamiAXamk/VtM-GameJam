@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: VisitClinic
+  m_EditorClassIdentifier: 
+  eventId: 16
+  actionPoints: 1
+  boolListIndex: 0
+  eventLocation: 5
+  repeatable: 1
+  mandatory: 0
+  done: 0
+  description: Visit Clinic
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: f8d64ca38a2bb0b4fa8d44b8eeee68bd, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: "Arriving at the local hospital, the fluorescent light, scent of sickness
+      and stress makes you a bit uneasy. You\u2019d feel sick if you still could."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "(I hate places like this\u2026. they make me shiver)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 2
+      choiceText: "(I\u2019m pretty sure I\u2019m in the correct wing for the radiation
+        tests\u2026)"
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 4
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 3
+      choiceText: "(Might as well buy a blood bag while I\u2019m here..)"
+      check: 1
+      checkType: 4
+      hidden: 1
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 3
+    - nextObjectIndex: 7
+      choiceText: (What am I doing here?)
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 8
+    previousObjectIndex: 0
+    type: 0
+    text: "You arrive at your scheduled meeting on time, like always. The vampire
+      in charge of the tests you ordered assures you that everything is under control
+      and that they\u2019ve started the tests already. They also promise to send
+      you the results as soon as possible. They\u2019re not too happy when you ask
+      them to send them to your email, but you lie that you have authorization from
+      the Prince, and they question you no further."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 54e24c7647e3f194a9636a45c382f18e, type: 3}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: "You head downstairs, you know where you\u2019re going, you\u2019ve been
+      here before. They know who you are when you arrive at the window."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "You head downstairs, you know where you\u2019re going, you\u2019ve been
+      here before. They know who you are when you arrive at the window. "
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 5
+      choiceText: Buy a blood bag (Social + Resources 4)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 16
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 6
+      choiceText: "(Why am I even here? I\u2019m completely broke?)"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: You are able to buy a blood bag without any issues, just like always. You
+      leave with no issues.
+    isItalic: 1
+    hasReward: 1
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: You leave, ashamed.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: You leave.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: You leave satisfied with your meeting.
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 27
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}

@@ -1,0 +1,462 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: SecondInquisitionBase
+  m_EditorClassIdentifier: 
+  eventId: 19
+  actionPoints: 3
+  boolListIndex: 28
+  eventLocation: 12
+  repeatable: 0
+  mandatory: 1
+  done: 0
+  description: Infiltrate Second Inquisition base
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: c6c0d23cf9560ee4587ab9b41d7d6b6f, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: "The night city lights paint the streets with a warm orange light, you
+      hop off a cab at one of the tallest skyscrapers in your city. You\u2019ve uncovered
+      this as a base where the Second Inquisition operates from. Now all there\u2019s
+      left for you to do is go in and find out how to stop this."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 2
+    previousObjectIndex: 0
+    type: 0
+    text: "(Huh.. a skyscraper downtown.. way to hide under everyone\u2019s noses\u2026
+      they\u2019ve probably taken a few pointers from the Camarilla\u2026I hope they
+      aren\u2019t expecting me..)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 0
+    text: You walk in through the tall steel frame glass doors, the lobby is a brightly
+      lit wide room with light marble flooring. You approach the front desk.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: "Receptionist: \u201CGood evening, Do you have an appointment reserved?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Receptionist: \u201CGood evening, Do you have an appointment reserved?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 5
+      choiceText: "\u201CYes, just on the 12th floor there, she\u2019s already waiting
+        for me\u201D (Mental + Etiquette 4)"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 16
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 6
+      choiceText: "\u201CNo.. Should I?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 7
+      choiceText: "\u201DYeah yeah I\u2019ll see myself there ok?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 8
+    previousObjectIndex: 0
+    type: 0
+    text: "You flash her some fake business card while you speak. She doesn\u2019t
+      really get to take a look at it, but you seem important enough for her to believe
+      you. She points you the way."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 19
+    previousObjectIndex: 0
+    type: 0
+    text: "She rolls your eyes at you and scoffs. \u201CYeah, right..\u201D She shares
+      a look with the security guard in the room, and points the door at you. \u201CIf
+      you have no legitimate business to be here, I need you to leave.\u201D"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 19
+    previousObjectIndex: 0
+    type: 0
+    text: "You can see her glance at the security guard in the room, before she opens
+      her mouth to respond \u201CYou will not do that.\u201D She says with a surprisingly
+      stern voice. \u201CIf you have no legitimate business here, I need you to leave.\u201D"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 9
+    previousObjectIndex: 0
+    type: 0
+    text: "You take the elevator to the correct floor. Once there, you\u2019re faced
+      with a bouncer staring you up and down."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "You take the elevator to the correct floor. Once there, you\u2019re faced
+      with a bouncer staring you up and down."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 0
+      choiceText: You try to sneak past him, there has to be another way in. (Physical
+        + Stealth 7)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 7
+      boolIndex: 0
+      attribute: 1
+      skill: 1
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 11
+      choiceText: You show him your masterfully crafted fake ID, he lets you pass.
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 29
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 10
+      choiceText: Fight him to the death.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: Fight him to the death.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 14
+      choiceText: You pull out your gun, aim it at the bouncer as you walk closer
+        to him, and pull the trigger. (Mental + Firearms 4)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 11
+      choiceText: "Fuck this guy, you\u2019ll beat the shit out of him, he\u2019s
+        in your way. (Physical + Brawl 5)"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 1
+      skill: 4
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 20
+      choiceText: "Why are you even trying to fight this guy? He\u2019s too strong,
+        and fucks you up permanently."
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 12
+    previousObjectIndex: 0
+    type: 0
+    text: "Once you\u2019ve gotten past the bouncer at the door, you\u2019re greeted
+      with a bunch of office cubicles, and an open space leading to a few office
+      doors. There aren\u2019t a lot of people around, but you confidently make your
+      way to one of the offices you\u2019ve deemed empty and start digging around."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 13
+    previousObjectIndex: 0
+    type: 0
+    text: "The desktop computer in the office pulls your attention first, and you
+      manage to guess the password that was conveniently just Password1\u2026"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 15
+    previousObjectIndex: 0
+    type: 0
+    text: "After reading through some of the emails, you find out that you aren\u2019t
+      the first one that managed to get past the security into the Second Inquisition
+      base, and that the artifact you\u2019ve been after has been stolen. You also
+      find out that the cross you\u2019ve been looking for isn\u2019t just an artifact,
+      it\u2019s actually a detonator to the bomb."
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 31
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 12
+    previousObjectIndex: 0
+    type: 0
+    text: "Once you\u2019ve gotten past the bouncer at the door, you\u2019re greeted
+      with a bunch of office cubicles, and an open space leading to a few office
+      doors. There aren\u2019t a lot of people around, most of them are cowering
+      under their desks now. Once you walk past them they all start running out through
+      the same door you came in from. But you confidently make your way to one of
+      the offices you\u2019ve deemed empty and start digging around."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "After reading through some of the emails, you find out that you aren\u2019t
+      the first one that managed to get past the security into the Second Inquisition
+      base, and that the artifact you\u2019ve been after has been stolen. You also
+      find out that the cross you\u2019ve been looking for isn\u2019t just an artifact,
+      it\u2019s actually a detonator to the bomb."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 16
+      choiceText: Try and open the encrypted emails. (Mental + Science 6)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 6
+      boolIndex: 0
+      attribute: 2
+      skill: 15
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 19
+      choiceText: Leave before someone comes to check on you.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 17
+    previousObjectIndex: 0
+    type: 0
+    text: You manage to hack into the encrypted emails, and find out that the Prince
+      has known about the bomb this entire time. The Prince was also blackmailed
+      by the Second Inquisition into cooperation. Going in deeper into the emails
+      you also find out the bomb was never supposed to go off.
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 34
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 18
+    previousObjectIndex: 0
+    type: 1
+    text: "After being kicked out of the building, you notice there could be an alternative
+      way in from the fire escape, if you\u2019re brave enough."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 18
+      choiceText: Climb in (Physical + Athletics 7)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 1
+      skill: 5
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 0
+      choiceText: Leave
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 9
+    previousObjectIndex: 0
+    type: 0
+    text: "You manage to climb through the fire escape all the way up to the 12th
+      floor. Once in, you straighten your jacket a little, walk towards the offices
+      and you\u2019re faced with a bouncer."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: You leave.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: "You\u2019re dead."
+    isItalic: 1
+    hasReward: 1
+    rewardType: 6
+    rewardSkill: 0
+    rewardValue: 5
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}

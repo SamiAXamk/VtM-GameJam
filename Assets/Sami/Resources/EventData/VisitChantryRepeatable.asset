@@ -1,0 +1,703 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: VisitChantryRepeatable
+  m_EditorClassIdentifier: 
+  eventId: 15
+  actionPoints: 2
+  boolListIndex: 49
+  eventLocation: 4
+  repeatable: 1
+  mandatory: 1
+  done: 0
+  description: Visit Chantry
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: a5fe2149b1fd0744694c611ff1bd935a, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: "(Valerie knows a lot about things\u2026 I should go see her again,her
+      advice definitely can\u2019t hurt.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 2
+    previousObjectIndex: 0
+    type: 0
+    text: Before you have a chance to knock on the door, Valerie opens it for you,
+      letting you in. She seems pleased to see you again.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CTo what do I owe the pleasure?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: (What should I say next?)
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 4
+      choiceText: "\u201CSo\u2026 I noticed the photo\u2026 Someone important to
+        you?\u201D"
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 14
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 12
+      choiceText: "\u201CValerie\u2026 Don\u2019t pretend you haven\u2019t seen,
+        FELT the connection between us!\u201D"
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 11
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 21
+      choiceText: "\u201CI have rumours from the city. Hear me out.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 33
+      choiceText: Leave
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 5
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie's face darkens, and her voice takes on an icy tone you haven\u2019t
+      heard before."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 6
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CThat does NOT concern you in any way. Drop it.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Valerie: \u201CThat does NOT concern you in any way. Drop it.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 7
+      choiceText: "\u201CI\u2019m sorry, Valerie, Don\u2019t get me wrong. I just
+        think\u2026 I think I understand what that is about.\u201D"
+      check: 1
+      checkType: 4
+      hidden: 1
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 2
+    - nextObjectIndex: 3
+      choiceText: "\u201CI\u2019m sorry, Valerie. I meant no offense. It isn\u2019t
+        my place to pry. Forgive me.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 8
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie\u2019s face softens again. A shadow of grief, undiluted by the
+      passage of time seems to hang over her all of a sudden. It almost looks as
+      though she were about to cry, although you know she cannot."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 9
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CHow could you. Who have YOU lost?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 10
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CAlmost anyone I ever cared about. My sire was taken by hunters,
+      not that many years after I was turned. After that I stumbled from one group
+      to another. There was a person or another here or there, but you know how unlife
+      is. They all met their ends eventually. I rose on the ladder of society, but
+      in the middle of all the pomp and parade of high society I was always alone.
+      Always lonely in a way not one of those fools could understand.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 11
+    previousObjectIndex: 0
+    type: 0
+    text: Valerie takes your hand into hers. She talks in length about her previous
+      lover, how they were turned together, the eternity they were supposed to share
+      as kindred. How it so very rarely works like that. Just as it did not in her
+      case.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 0
+    text: She speaks of the loss, the grief, and the solitude after, and how, for
+      the first time ever since her loss she feels like that solitude is shared with
+      someone else. You share a long embrace, which neither of you want to break,
+      though you let go eventually. She smiles the saddest, most hopeful smile you
+      have seen.
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 38
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "You: \u201CValerie\u2026 Don\u2019t pretend you haven\u2019t seen, FELT
+      the connection between us!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 13
+      choiceText: Romance Valerie
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 38
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 14
+      choiceText: Explain yourself to her
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "\u201CI\u2026 I\u2026 Jeez. You make me feel like a little girl again.
+      I\u2019m not sure I\u2019m ready, even after all this time. Where would we
+      go from here?\u201D"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 15
+      choiceText: Offer your heart
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 19
+      choiceText: Offer your status
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CI\u2019m entirely sure I haven\u2019t got a clue what you\u2019re
+      going on about. Now, do you need me for my professional expertise, or should
+      you go bother someone else?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 16
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CVal.. May I call you Val? I know we just met, but\u2026 There\u2019s
+      something about you, about us, that I simply can\u2019t let go of. I feel like
+      we have known each other for so much longer than I logically know we have.
+      If you\u2019d have me, I would like to stand by your side. Aren\u2019t you
+      tired of the solitude? Of the lone hunts, of those who want your body but not
+      your person? I would never presume to replace what your former partner was
+      for you, but perhaps I can be something\u2026 Entirely new?\u201D"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 17
+    previousObjectIndex: 0
+    type: 0
+    text: She takes both your hands into hers. You feel a warmth slowly beginning
+      to emanate from them. Tears start welling in her eyes as a rosy hue takes over
+      her cheeks. She leans on to you, holding you against her tightly. She whispers
+      in your ear, her voice shaking.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 18
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CYes...  Yes. I never thought I could feel this way again.
+      I\u2019ve never been so happy to be proven wrong. I hope you don\u2019t mind
+      the Blush\u2026 I wanted\u2026 to properly show you my feelings.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 34
+    previousObjectIndex: 0
+    type: 0
+    text: "You hold each other for what feels like an eternity. You both wish it
+      could be one. As you finally part, you see her soft smile, almost like the
+      one she smiled earlier. The hope is there, but the sorrow that shadowed it
+      earlier is gone. The smile catches on to you, and you gaze into each other\u2019s
+      eyes, smiling for a while, before she reminds you of the business at hand.
+      You have an entire unlife to do all this after the city is safe."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 20
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie\u2019s nervous smile quickly dies on her lips, her face hardens,
+      and her tone freezes over."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CAnd here I thought you understood me. No. It\u2019s not
+      going to work, as tempting as it is. One like you could maybe make me powerful,
+      but happy? I would not be happy with you. Let\u2019s\u2026 let\u2019s forget
+      this ever happened.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Valerie: \u201CAnd here I thought you understood me. No. It\u2019s not
+      going to work, as tempting as it is. One like you could maybe make me powerful,
+      but happy? I would not be happy with you. Let\u2019s\u2026 let\u2019s forget
+      this ever happened.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 22
+      choiceText: "\u201CI\u2019ve been tracking a secret society here in the city.
+        Hunters by the look of it. Heard them called \xB4The Second Inquisition\xB4\u201D"
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 10
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 24
+      choiceText: "\u201CWent to snoop around this cathedral recently. Got into a
+        little scuff with the folks there. The guards had this weird ass symbol they
+        wore\u201D"
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 17
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 27
+      choiceText: "\u201CI went for a quick look at the mausoleum. They had some
+        ciphered text there talking about something they called \xB4The Cross of
+        St. Ongwynne\xB4\u201D"
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 25
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 33
+      choiceText: Leave.
+      check: 0
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 23
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CI\u2019ve heard the rumors as well, but I\u2019d dismissed
+      them as just that.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CI know where those types would be hiding their stuff. We\u2019ve
+      got to check out the mausoleum at the cemetery.\u201D"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 24
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 25
+    previousObjectIndex: 0
+    type: 0
+    text: You show her your best recreation of the symbol.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CI\u2019ve seen this one before. This might be trouble.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CI know where those types would be hiding their stuff. We\u2019ve
+      got to check out the mausoleum at the cemetery.\u201D"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 24
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Valerie: \u201COh! I know that one. A powerful weapon, should it fall
+      into\u2026 the right hands.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 28
+      choiceText: "\"It\u2019s just a fake\""
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 26
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 0
+      choiceText: "\u201CThe thought of a relic that powerful makes my skin crawl.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 29
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CNo, I\u2019m sure it exists, I\u2019ve been tracking it
+      across history through stories and recounts of events.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 30
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CI dunno, Valerie. The part about it not existing was a lot
+      more heavily ciphered than the rest.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CLook, we can sit here and discuss the veracity of various
+      relics and artefacts throughout history all night if we wish, but I think we
+      should get back to something more useful.\u201D"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 32
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CBut imagine how it could shake the power structures of
+      kindred society\u2026 In the right hands it would mean we\u2019d no longer
+      live under the tyranny of the elders. A prince would mean nothing if a mere
+      relic could undo them at any time!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CThose are dangerous words to be throwing around, Valerie. Be
+      careful of whose ears they might reach.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CActually. I think I should go now, thank you for your time,
+      Valerie.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 35
+    previousObjectIndex: 0
+    type: 0
+    text: Just before you are ready to leave, Valerie grabs you by the sholder, willing
+      to tell your something.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: "Valerie: \u201CI already once lost someone important to me and will never
+      let it happen again. That why I have to have my revenge. If you, detective,
+      wish to see final resolution, meet me at the abandoned factory.\u201D"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 34
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: b030d9154d6285744a1a1d8ba9b8be89, type: 3}

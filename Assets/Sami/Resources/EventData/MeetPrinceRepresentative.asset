@@ -1,0 +1,569 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: MeetPrinceRepresentative
+  m_EditorClassIdentifier: 
+  eventId: 10
+  actionPoints: 2
+  boolListIndex: 0
+  eventLocation: 7
+  repeatable: 0
+  mandatory: 1
+  done: 1
+  description: Meet the Prince's representative
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: f8d64ca38a2bb0b4fa8d44b8eeee68bd, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: "You step into a room that\u2019s way too fancy for your liking. All these
+      decorations and shit almost make you just want to turn away and go back, but
+      you remember why you are here and fix your posture. Soon your gaze falls upon
+      the representative as you start making your way towards them."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "(I suppose I should try to make an impression\u2026)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 2
+      choiceText: Approach with a smile
+      check: 1
+      checkType: 2
+      hidden: 1
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 1
+      predatorType: 0
+    - nextObjectIndex: 2
+      choiceText: "Take quick steps as not to waste anyone\u2019s time"
+      check: 1
+      checkType: 2
+      hidden: 1
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 1
+      predatorType: 0
+    - nextObjectIndex: 11
+      choiceText: Approach with a smile
+      check: 1
+      checkType: 2
+      hidden: 1
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 11
+      choiceText: "Take quick steps as not to waste anyone\u2019s time"
+      check: 1
+      checkType: 2
+      hidden: 1
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 0
+    text: The representative eyes you up and down as you approach. You notice the
+      corner of his mouth twitch ever so slightly, but the glib smile on his lips
+      never wavers.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Representative: \u201CEvening. How may I help you?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 4
+      choiceText: "\u201CEvening. Say, how does one end up with a job like this?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 5
+      choiceText: "\u201CI\u2019ll just cut to the chase.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 5
+    previousObjectIndex: 0
+    type: 0
+    text: "Representative: \u201CSurely THAT\u2019S not why you are here. If you
+      must know, one has to both carry oneself with dignity AND know the right people.
+      Neither of which one of\u2026 your stature surely does. Now, state your business
+      or be on your way.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 6
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201COkay so\u2026 I\u2019ve recently come into the know about a
+      dirty bomb somewhere right under the city. Now, it\u2019s in everyone\u2019s
+      interest for me to find it, and soon. I\u2019m going to need some manpower
+      and intel on the underground works, and I know you people have plenty.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 7
+    previousObjectIndex: 0
+    type: 0
+    text: "Representative: \u201CMhm, and I am to simply take your word on it and
+      commit OUR resources to YOU\xB4R society\u2019s use?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 8
+    previousObjectIndex: 0
+    type: 0
+    text: "You don\u2019t answer and instead just stare directly towards the representative
+      with a blank expression. Eventually you raise up a brow as a means to continue
+      the conversation."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 9
+    previousObjectIndex: 0
+    type: 0
+    text: "Representative: \u201CAs I thought. What I CAN do for you is I happen
+      to know where the rest of your ilk waste their time.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 10
+    previousObjectIndex: 0
+    type: 0
+    text: The representative hastily scribbles onto a small note, folds it over,
+      and slides it to you, dragging his fingers along the desktop. You put the note
+      into your breast pocket and nod toward him as a way of thanks.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 23
+    previousObjectIndex: 0
+    type: 0
+    text: "Representative: \u201CNow, if there is nothing further, would you kindly
+      go stink up someone else\u2019s office?\u201D"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 13
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 12
+    previousObjectIndex: 0
+    type: 0
+    text: "The Prince\u2019s representative sitting behind his desk is hunched over
+      a stack of paper in front of him. As you stride across the room towards him,
+      he lifts his gaze to meet you, and his face visibly lightens. As you approach
+      the desk he stands up to shake your hand."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 13
+    previousObjectIndex: 0
+    type: 0
+    text: "Representative: \u201CWelcome, welcome! It has been a while since we had
+      the pleasure of entertaining one of your standing! I trust you found your journey
+      quite pleasant?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 14
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CAs pleasant as one might expect. Might enjoy myself more if
+      it weren\u2019t such grim stuff that brings me here.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 15
+    previousObjectIndex: 0
+    type: 0
+    text: "The smile on the representative\u2019s face wanes slightly, and his eyes
+      sharpen."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 16
+    previousObjectIndex: 0
+    type: 0
+    text: "Representative: \u201CPray tell. Is there aught we can do in the way of
+      aid towards you?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 17
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CI\u2019ll cut to the chase. I\u2019ve recently come into the
+      know about a dirty bomb somewhere right under the city. Now, it\u2019s in everyone\u2019s
+      interest for me to find it, and soon. I\u2019m going to need some manpower
+      and intel on the underground works, and I know you people have plenty.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 18
+    previousObjectIndex: 0
+    type: 0
+    text: "Representative: \u201CAhh\u2026 I hate to pry, but\u2026 Have you got
+      any proof of this claim besides your word? Not that I doubt it, but we do need
+      to keep a tight leash on our resources.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 19
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CAfraid I got nothing yet.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 20
+    previousObjectIndex: 0
+    type: 0
+    text: "The representative seems to mumble a low \u2018oh\u2026\u2019 as he looks
+      thoughtful for a moment."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 21
+    previousObjectIndex: 0
+    type: 0
+    text: "Representative: \u201CI\u2019m afraid we cannot give you what you ask
+      for on your claim alone. However, as an operative of your status our offers
+      are open to you. I hope this will be of help to you.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 22
+    previousObjectIndex: 0
+    type: 0
+    text: He opens the drawer in his desk, picks a pre-paid credit card and hands
+      it to you. You accept it and tuck it away in your breast pocket, nodding toward
+      him as a way of thanks.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 23
+    previousObjectIndex: 0
+    type: 0
+    text: "Representative: \u201CCan I assist you any further, or shall we bid goodbye
+      for now?\u201D"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 0
+    rewardSkill: 17
+    rewardValue: 1
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 24
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CActually\u2026 You got any knowledge on the recent goings-on
+      that could help me?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 25
+    previousObjectIndex: 0
+    type: 0
+    text: "Representative: \u201CHmm\u2026 There was a recent\u2026 incident in one
+      of our more upscale locations. A personage of note had their ghoul murdered
+      in a rather grizzly manner. I don\u2019t know whether it connects to your business,
+      but if you wish, you can check out the crime scene.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: "Representative: \u201CYou might want to ask around one of our busier locations
+      as well. Perhaps you\u2019ll make a social connection or two.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 3
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 27
+    previousObjectIndex: 0
+    type: 0
+    text: The representative hastily scribbles onto a small note, folds it over,
+      and slides it to you, dragging his fingers along the desktop. You put the note
+      into your breast pocket and nod toward him as a way of thanks.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "(Now\u2019s the best time to ask if I still have anything\u2026)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 28
+      choiceText: "\u201CYou know any place I could test the locals for traces of
+        radioactivity?\u201D (Mental + Science 5)"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 2
+      skill: 15
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 30
+      choiceText: "\u201CYou know where the local library for our kind is? I want
+        to read up on the local hunter business.\u201D (Mental + Occult 4)"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 8
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 31
+      choiceText: "\u201CThanks. I think we\u2019re done here.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 29
+    previousObjectIndex: 0
+    type: 0
+    text: "Representative: \u201CWe have a facility at the clinic that we could let
+      you use. I\u2019ll give you the instructions.\u201D"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 4
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 31
+    previousObjectIndex: 0
+    type: 0
+    text: The representative hands you yet another note.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 29
+    previousObjectIndex: 0
+    type: 0
+    text: "Representative: \u201CWhatever for? Well, it\u2019s certainly not any
+      of my business. Here.\u201D"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 3
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 81f87ecf2f063664fbf357c339799d5e, type: 3}
+  - nextObjectIndex: 32
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CThanks. I think we\u2019re done here.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: You nod toward the representative and leave him to his business, walking
+      back out into the streets.
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 1
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}

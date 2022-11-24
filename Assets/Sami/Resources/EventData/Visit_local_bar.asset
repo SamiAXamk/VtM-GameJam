@@ -1,0 +1,1615 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: Visit_local_bar
+  m_EditorClassIdentifier: 
+  eventId: 2
+  actionPoints: 1
+  boolListIndex: 0
+  eventLocation: 1
+  repeatable: 1
+  mandatory: 0
+  done: 0
+  description: Visit Local Bar
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: 3dbbbfc03abdbde4da69d4434ea34f31, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: "You step into the dimly lit bar. It\u2019s not the busiest night of the
+      week for the bar, but it\u2019s by no means empty. The smell of alcohol and
+      drunken people is unmistakable and you start scanning the crows for anything
+      of interest."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "You step into the dimly lit bar. It\u2019s not the busiest night of the
+      week for the bar, but it\u2019s by no means empty. The smell of alcohol and
+      drunken people is unmistakable and you start scanning the crows for anything
+      of interest."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 2
+      choiceText: Find Prey.
+      check: 1
+      checkType: 4
+      hidden: 1
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 27
+      choiceText: Find Prey.
+      check: 1
+      checkType: 4
+      hidden: 1
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 2
+    - nextObjectIndex: 41
+      choiceText: Find the woman.
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 2
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 45
+      choiceText: Find the woman.
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 40
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: Leave.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: You let your eyes wander through the masses, looking for someone you could
+      convince to lend their hand. You find a woman you believe could be suitable.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 3
+      choiceText: Approach the woman.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: Leave.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: You make your way toward the woman, and try to meet her eyes. She notices
+      this and looks at with an ever so slight smile on her red lips.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 5
+      choiceText: "\u201CWhat\u2019s a girl like you doing in a place like this?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 7
+      choiceText: "\u201CYou and me in that bathroom, now. What do you say?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 7
+      choiceText: Touch her hair and caress her neck.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 49
+      choiceText: "\u201CHow am I allowed to be blessed by such a gorgeous visage,
+        in this god forsaken dump of all places?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "\u201C\u2026 I\u2019ve got to go!\u201D (Leave.)"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: After you narrowly avoid being thrown up on, you swiftly decide to leave
+      the place.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 6
+    previousObjectIndex: 3
+    type: 0
+    text: "Woman: \u201CGetting drinks and having fun, what else? Knitting socks
+      and baking cookies?  Say what are you doing here? You don\u2019t exactly fit
+      in, either.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 7
+    previousObjectIndex: 5
+    type: 0
+    text: "You: \u201CHah... you're right. I probably don't... Maybe we should leave
+      this place for something with a bit more class\u2026 and privacy.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 8
+    previousObjectIndex: 6
+    type: 0
+    text: "Woman: \u201CExcuse me? At least get a girl a drink before trying to woo
+      her!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Woman: \u201CExcuse me? At least get a girl a drink before trying to woo
+      her!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 9
+      choiceText: "\u201CAh, yes, of course. Where are my manners.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 15
+      choiceText: "\u201CA drink? For you? No no, you\u2019ve got it all wrong\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 19
+      choiceText: "\u201COh? Are you sure it\u2019s a drink you desire?\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 53
+      choiceText: "\u201CYes, for your desire is my desire, and, soon, vice versa.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "\u201COh, my apologies, I must\u2019ve mistaken you for somebody
+        else. Good night.\u201D (Leave.)"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 10
+    previousObjectIndex: 0
+    type: 0
+    text: You make your way back to the counter and purchase a pink alcohol mix with
+      a tiny purple umbrella. With the drink in hand you find the woman where you
+      left her.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 11
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CHere\u2019s your drink.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 12
+    previousObjectIndex: 0
+    type: 0
+    text: The woman is surprised with the drink choice. She takes the drink and takes
+      a sip.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 13
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201CHow did you know this is the drink I wanted?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 14
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CI\u2026 had a hunch. Now, how about that bit of privacy?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 21
+    previousObjectIndex: 0
+    type: 0
+    text: "\u201CAh, yes. What\u2019d you have in mind?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 16
+    previousObjectIndex: 0
+    type: 0
+    text: The woman arches her brows in surprise and you can see she's definitely
+      not amused.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 17
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201CWell, good luck finding someone who has the things however
+      you prefer them to be. I, on the other hand, have my own plans for the evening.
+      Good night.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 18
+    previousObjectIndex: 0
+    type: 0
+    text: The woman leaves before you have a chance to do anything.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: "You\u2019re left standing in the bar by yourself. You decided to call
+      it a night and swiftly leave the bar."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 20
+    previousObjectIndex: 0
+    type: 0
+    text: "You notice a flash of confusion on the woman\u2019s face but before you
+      can explain yourself, the confusion is replaced by a knowing and flirtatious
+      smile."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 21
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201CAh fuck it, you\u2019re right. What\u2019d you have in mind?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 22
+    previousObjectIndex: 0
+    type: 0
+    text: You look around the bar and notice an empty sofa off to the side. You gauge
+      the place to be private enough for feeding.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: You look around the bar and notice an empty sofa off to the side. You gauge
+      the place to be private enough for feeding.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 23
+      choiceText: "\u201CWhy don\u2019t we go to that sofa and let our tongues and
+        hands get to know each other?\u201D"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 3
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "\u201CActually, never mind, there\u2019s someplace else I need
+        to be.\u201D (Leave.)"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 24
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman:  \u201CI was afraid you\u2019d never ask.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 25
+    previousObjectIndex: 0
+    type: 0
+    text: "You take the woman\u2019s hand and guide her to the sofa. You sit down,
+      sitting her onto your lap. You look deep into her eyes, dark in the dimly lit
+      bar. She leans in for a kiss and you reply. The two of you passionately make
+      out. Soon enough you move your attention to her neck, softly caressing it with
+      the tips of your fingers before giving it a gentle kiss."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: You feed on her, satisfying your thirst.
+    isItalic: 0
+    hasReward: 1
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: "You hold her in your arms until she regains herself. She\u2019s confused
+      but beaming with joy and satisfaction. You gently sit her onto the couch next
+      to you and swipe her hair behind her ear. With one swift motion you get up,
+      give her a quick peck on her forehead and leave the bar."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: You let your eyes wander through the masses, looking for someone you could
+      convince to lend their hand. You find a woman you believe could be suitable.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 28
+      choiceText: Approach the woman.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: Leave the bar.
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 29
+    previousObjectIndex: 0
+    type: 0
+    text: You make your way toward the woman and greet her. She seems slightly confused
+      but seems to offer you a chance to speak up.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 30
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CThere\u2019s something I need from you, if you happen to have
+      the time~\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 31
+    previousObjectIndex: 0
+    type: 0
+    text: Her confusion grows, until a light seems to go off in her head.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Woman: \u201CExcuse me? At least get a girl a drink before trying to woo
+      her!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 32
+      choiceText: "\u201CWoo you? I\u2019m not trying to woo you, it\u2019s something
+        entirely different I need.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 36
+      choiceText: "\u201COh... umm\u2026 sure, yes\u2026 of course.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 40
+      choiceText: "\u201CA drink!? This is bigger than either you or me, let alone
+        a drink!\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 15
+      choiceText: "\u201CA drink? For you? No no, you\u2019ve got it all wrong...\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "\u201CAh, never mind, I\u2019ve got to go!\u201D (Leave.)"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 33
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201CWell, whatever it is you need, I\u2019m much more helpful
+      with a drink in my hand.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 34
+    previousObjectIndex: 0
+    type: 0
+    text: "The woman is beaming with confidence and you figure things\u2019ll be
+      much easier if you just go and buy her a drink."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 35
+    previousObjectIndex: 0
+    type: 0
+    text: You make your way back to the counter and purchase a tap beer. With the
+      drink in hand you find the woman where you left her.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 65
+    previousObjectIndex: 0
+    type: 0
+    text: "The woman looks at the drink, then you and then the drink again. She mutters
+      something to herself and takes the drink. She takes a sip and it\u2019s clear
+      she does not like beer."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 37
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201CAnd it better be one of those fancy drinks, I cannot stand
+      the taste of beer!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 38
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CYes, yes. Of course.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 39
+    previousObjectIndex: 0
+    type: 0
+    text: You make your way back to the counter. You quickly browse through the list
+      of available drinks and decide on the one with the most fruits in it. With
+      the drink in hand you find the woman where you left her.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 65
+    previousObjectIndex: 0
+    type: 0
+    text: The woman looks at the drink with curiosity and takes a sip. She seems
+      pleased with your choice.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 65
+    previousObjectIndex: 0
+    type: 0
+    text: The confusion on the woman's face doesn't seem to go anywhere but she just
+      shrugs and continues, with no drink in her hands.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 42
+    previousObjectIndex: 0
+    type: 0
+    text: You look for the woman and find her sitting on a quiet corner. You exchange
+      greetings as you sit down. Quickly enough the two of you are lost in a fiery
+      kiss.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 43
+    previousObjectIndex: 0
+    type: 0
+    text: The two of you passionately make out. Soon enough you move your attention
+      to her neck, softly caressing it with the tips of your fingers before giving
+      it a gentle kiss.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 44
+    previousObjectIndex: 0
+    type: 0
+    text: You feed on her, satisfying your thirst.
+    isItalic: 0
+    hasReward: 1
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: "You hold her in your arms until she regains herself. She\u2019s confused
+      but beaming with joy and satisfaction. You gently sit her onto the couch next
+      to you and swipe her hair behind her ear. With one swift motion you get up,
+      give her a quick peck on her forehead and leave the bar."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 46
+    previousObjectIndex: 0
+    type: 0
+    text: You look for the woman and find her sitting on a quiet corner. You exchange
+      greetings as you sit down. You quickly explain to her how you need more blood
+      to avert the looming disaster and hastily answer any questions she might have.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 47
+    previousObjectIndex: 0
+    type: 0
+    text: Quickly enough you remind her of the urgency of the situation and with
+      that she prepares herself for the extraction.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 48
+    previousObjectIndex: 0
+    type: 0
+    text: You feed on her, satisfying your thirst.
+    isItalic: 0
+    hasReward: 1
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: "You sit with her until she regains herself. She\u2019s confused but otherwise
+      perfectly fine. Quietly, you get up and leave the bar."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 50
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman\u2019s face is a mix of confusion and amusement."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 51
+    previousObjectIndex: 0
+    type: 0
+    text: 'Woman: "Getting drinks and having fun, what else? Knitting socks and baking
+      cookies?  What are you doing here?"'
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 52
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CWasn\u2019t planning on much but then I saw you. All the other
+      humans pale in comparison to you and you seem like a woman who knows it.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 8
+    previousObjectIndex: 0
+    type: 0
+    text: You see the woman blushing even when she tries her darndest to cover it.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 54
+    previousObjectIndex: 0
+    type: 0
+    text: You leave the visibly confused woman behind to make your way back to the
+      counter and purchase a pink alcohol mix with a tiny purple umbrella. With the
+      drink in hand you find the woman where you left her.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 55
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CHere\u2019s the drink you desired.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 56
+    previousObjectIndex: 0
+    type: 0
+    text: The woman is clearly positively surprised with the drink choice. She takes
+      the drink and takes a sip.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 57
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201CHow did you know this is the drink I wanted?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 58
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CA beautiful being such as yourself would settle on nothing
+      less.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 59
+    previousObjectIndex: 0
+    type: 0
+    text: The woman is now obviously blushing, now trying to bury her red cheeks
+      into the drink you brought. You take the opportunity to look around the bar
+      and notice an empty sofa off to the side. You gauge the place to be private
+      enough for feeding.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: The woman is now obviously blushing, now trying to bury her red cheeks
+      into the drink you brought. You take the opportunity to look around the bar
+      and notice an empty sofa off to the side. You gauge the place to be private
+      enough for feeding.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 60
+      choiceText: "\u201CWe shall be lovers now and forever. Let us retire to some
+        place more private.\""
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 8
+      boolIndex: 0
+      attribute: 0
+      skill: 14
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "\u201CMy sincerest apologies, but I may have forgotten my stove
+        on, and as such have to leave with haste. Good night!\u201D (Leave.)"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 61
+    previousObjectIndex: 0
+    type: 0
+    text: The woman looks at you, as if trying to eat you simply with her gaze. Without
+      saying a thing, she nods and walks to the couch. You follow her and the two
+      of you sit down. You take her hand. And lean in to kiss her neck.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 62
+    previousObjectIndex: 0
+    type: 0
+    text: You feed on her, satisfying your thirst.
+    isItalic: 0
+    hasReward: 1
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 63
+    previousObjectIndex: 0
+    type: 0
+    text: "You hold her in your arms until she regains herself. She\u2019s confused
+      but beaming with joy and satisfaction."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 64
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CI would like to see you again. Please, call for me whenever
+      you\u2019re here.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: You get up and leave the bar.
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 2
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "Woman: \"So, what do you need help with?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 66
+      choiceText: "\u201CI\u2019m a child of the night and your blood is singing
+        to me. Would you be so kind as to share it with me? I can assure you it will
+        cause no harm to you.\u201D"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 71
+      choiceText: "\u201CThis will seem weird, but I need a bit of your blood. Do
+        not be alarmed, the process will be safe and absolutely painless.\u201D"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 12
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 81
+      choiceText: "\u201CI\u2019m a detective looking into a threat to this city
+        and need a blood sample from you.\u201D"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 8
+      boolIndex: 0
+      attribute: 0
+      skill: 12
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 4
+      choiceText: "\u201CActually, never mind. I\u2019ve got to go.\u201D (Leave.)"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 67
+    previousObjectIndex: 0
+    type: 0
+    text: "You\u2019re not sure if you\u2019ve ever seen a face so blank before."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 68
+    previousObjectIndex: 0
+    type: 0
+    text: Suddenly the woman burst out laughing, almost spilling her drink in the
+      process.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 69
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201CYeah, sure. And I\u2019m a werewolf and the bartender\u2019s
+      a fairy.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 70
+    previousObjectIndex: 0
+    type: 0
+    text: "The woman continues giggling as you turn to take another look at the bar
+      tender. To your senses, however, he seems like a normal human being. You turn
+      back to the woman but she\u2019s disappeared into the crowd and you can\u2019t
+      find her anymore."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: Disappointed with the failed hunt you decided to leave the bar.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 72
+    previousObjectIndex: 0
+    type: 0
+    text: "The woman is visibly confused, but not laughing or running away. That\u2019s
+      a start, you think to yourself."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 73
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CWe could just go over there to that couch and take the blood\u2026\u201C"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 74
+    previousObjectIndex: 0
+    type: 0
+    text: "The confusion on the woman\u2019s face is not going anywhere. You start
+      losing hope when suddenly shrugs and nods."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 75
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201CEh, fuck it, why not. You don\u2019t seem like someone who\u2019d
+      kill me.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 76
+    previousObjectIndex: 0
+    type: 0
+    text: Only mildly offended by the remark you lead the woman to the couch. The
+      two of you sit down and the woman looks at you, as if waiting for you to whip
+      out a needle or something.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 77
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201C\u2026 Umm\u2026 could you tilt your head a bit, the umm\u2026
+      hormones I need are present in the veins around that area.\u201D"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 78
+    previousObjectIndex: 0
+    type: 0
+    text: The woman looks at you, the front door of the bar and then you again.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 79
+    previousObjectIndex: 0
+    type: 0
+    text: With a shrug she tilts her head. You lean in, move her hair out of the
+      way and locate the vein you desire.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 80
+    previousObjectIndex: 0
+    type: 0
+    text: You feed on her, satisfying your thirst.
+    isItalic: 0
+    hasReward: 1
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: "You sit with her until she regains herself. She\u2019s confused but otherwise
+      perfectly fine. Quietly, you get up and leave the bar."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 82
+    previousObjectIndex: 0
+    type: 0
+    text: "The woman is visibly confused, but not laughing or running away. That\u2019s
+      a start, you think to yourself. You hurry to continue."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 83
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CI've been informed that your blood may pose the needed component
+      to avert the disaster.\u201C"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 84
+    previousObjectIndex: 0
+    type: 0
+    text: "You look at the woman. She\u2019s slightly less confused now. She looks
+      at you and her eyes light up."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 85
+    previousObjectIndex: 0
+    type: 0
+    text: "Woman: \u201CAre you kidding me? This seems a bit far-fetched to me...\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 86
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CA joke hasn\u2019t crossed my mind for decades. There\u2019s
+      a couch over there which seems to quit enough, I don't want to risk a widespread
+      panic.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 87
+    previousObjectIndex: 0
+    type: 0
+    text: You guide the woman to the couch. The two of you sit down and the woman
+      looks at you, as if waiting for you to whip out a needle or something.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 88
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201C\u2026 Umm\u2026 could you tilt your head a bit, the umm\u2026
+      hormones I need are present in the veins around that area.\u201D"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 89
+    previousObjectIndex: 0
+    type: 0
+    text: The woman looks at you, the front door of the bar and then you again.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 90
+    previousObjectIndex: 0
+    type: 0
+    text: She tilts her head. You lean in, move her hair out of the way and locate
+      the vein you desire.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 91
+    previousObjectIndex: 0
+    type: 0
+    text: You feed on her, satisfying your thirst.
+    isItalic: 0
+    hasReward: 1
+    rewardType: 3
+    rewardSkill: 0
+    rewardValue: 2
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 92
+    previousObjectIndex: 0
+    type: 0
+    text: "You sit with her until she regains herself. She\u2019s confused but otherwise
+      perfectly fine. You wait for her to come to her senses again."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: 40bbd43201a5d32469c32da766e4ec50, type: 3}
+  - nextObjectIndex: 93
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CThere\u2019s a fairly high chance we\u2019ll need more blood.
+      However, to keep things from escalating I would like to do further donations
+      here as well. Please, call this number whenever you\u2019re available.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: You hand the woman a piece of paper with your burner number scribbled onto
+      it. The two of you thank each other as you get up and leave.
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 40
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}

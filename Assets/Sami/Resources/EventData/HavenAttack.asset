@@ -1,0 +1,677 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: HavenAttack
+  m_EditorClassIdentifier: 
+  eventId: 23
+  actionPoints: 0
+  boolListIndex: 46
+  eventLocation: 0
+  repeatable: 0
+  mandatory: 1
+  done: 0
+  description: Something's not right...
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: 93250ef213bae0d4580c9615e0f7ac50, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: " You\u2019re in your heaven, going through a variety of case files and
+      other evidence, trying to find anything you may\u2019ve missed. So far, nothing
+      has turned up but you\u2019re not about to give up. Suddenly, you hear something
+      breaking in the distance."
+    isItalic: 1
+    hasReward: 1
+    rewardType: 7
+    rewardSkill: 0
+    rewardValue: 50
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: " You\u2019re in your heaven, going through a variety of case files and
+      other evidence, trying to find anything you may\u2019ve missed. So far, nothing
+      has turned up but you\u2019re not about to give up. Suddenly, you hear something
+      breaking in the distance."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 2
+      choiceText: ' Go investigate'
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 22
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 14
+      choiceText: Retire to the prepared defense position.
+      check: 1
+      checkType: 1
+      hidden: 1
+      difficulty: 0
+      boolIndex: 35
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 24
+      choiceText: Reach for nearest weapon and brace yourself
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CAre you making a mess, Fayette?\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: ' No answer. You get up to go and check the disturbance but you see nothing.
+      And no one.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 5
+    previousObjectIndex: 0
+    type: 0
+    text: Before you can think or do a thing, you feel a cold steel blead on your
+      neck. By the weight and thickness of the blade you judge it to be big enough
+      to be of serious concern.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 6
+    previousObjectIndex: 0
+    type: 0
+    text: " Fayette: \u201COh my sweet innocent detective\u2026\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 7
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette slides from the shadows to your field of vision, face twisted
+      in sadistic grin. She\u2019s clearly pleased with herself and of the way things
+      turned out."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 8
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CDidn\u2019t I warn you to be extra careful with in whom
+      you place your trust?\u201D\r\n"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 9
+    previousObjectIndex: 0
+    type: 0
+    text: "She throws her head back and laughs. Just as you\u2019re about to make
+      your move, you hear more noises from within the heaven."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 10
+    previousObjectIndex: 0
+    type: 0
+    text: Light floods the room as an odd bunch on vampires gather behind Fayette,
+      each smirking and laughing with each other and at you.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 11
+    previousObjectIndex: 0
+    type: 0
+    text: "Fayette: \u201CI truly am sorry this had to come to this, we could\u2019ve
+      had such a successful future. But alas, it was not meant to be.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 12
+    previousObjectIndex: 0
+    type: 0
+    text: 'She looks almost sad as she leans in to give your cheek a kiss. Then she
+      smiles with the same creepy grin as before.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 13
+    previousObjectIndex: 0
+    type: 0
+    text: You feel the blade slicing into your neck and she blows you a kiss. You
+      feel your head separating from your body and falling. You never feel hitting
+      the ground.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 12
+    previousObjectIndex: 0
+    type: 0
+    text: You never feel anything ever again. You have been killed.
+    isItalic: 1
+    hasReward: 1
+    rewardType: 6
+    rewardSkill: 0
+    rewardValue: 5
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 15
+    previousObjectIndex: 0
+    type: 0
+    text: "Just as you\u2019re about to move, the security systems and alarms you\u2019ve
+      placed go off. You grab nearby knife and quietly make your way to a more defendable
+      position. There you find a hand gun and some knifes, just like you should.
+      You pick them up an and wait."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 16
+    previousObjectIndex: 0
+    type: 0
+    text: "You hear people in the house, although your sense of smell reveals them
+      to be vampires. You see a glimpse of one of them and see no symbols of any
+      kind. You have no idea who you\u2019re dealing with."
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 17
+    previousObjectIndex: 0
+    type: 0
+    text: You make your way to a security camera monitor and see that there are way
+      more intruders than you expected. Escape seems like the only even remotely
+      safe option.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 18
+    previousObjectIndex: 0
+    type: 0
+    text: "(That was a shotgun, someone must\u2019ve stepped into the trap. Good,
+      one less goon to deal with.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "(That was a shotgun, someone must\u2019ve stepped into the trap. Good,
+      one less goon to deal with.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 19
+      choiceText: Escape
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 24
+      choiceText: Stay and fight
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 20
+    previousObjectIndex: 0
+    type: 0
+    text: You check the cameras to map out an escape route. With all the cameras
+      the tasks fairly trivial and you get on your way.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 21
+    previousObjectIndex: 0
+    type: 0
+    text: ' On your way is what you presume to be ashes of a dead goon, killed by
+      one of your traps. Next to him is a piece of paper. You swiftly take the paper,
+      fold it to your pocket and move out.'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 22
+    previousObjectIndex: 0
+    type: 0
+    text: Apart from a few close calls you get out of the heaven with little to no
+      issues. You decided to run a few blocks to get some healthy distance between
+      you and the intruders before looking into the piece of paper you took from
+      the dead goon.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 23
+    previousObjectIndex: 0
+    type: 0
+    text: The piece of paper turns out to be an invitation to a ball held in the
+      near future. Judging by the additional scribbles done by an unknown party,
+      Fayette will be attending the ball and that the event is much more significant
+      than a simple ball.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: "You need to be at that ball when it happens, the Prince will be there,
+      he needs to be warned and guarded. With these thoughts you walk into the night,
+      now without heaven\u2026"
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 32
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 25
+    previousObjectIndex: 0
+    type: 0
+    text: "You won\u2019t be banished from your own heaven without a fight!"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: ' You sneak to the next room and see two vampires pillaging through your
+      stuff, with a lot more people on the other rooms.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: ' You sneak to the next room and see two vampires pillaging through your
+      stuff, with a lot more people on the other rooms.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 27
+      choiceText: (Physical + Brawl 4) Defend yourself with melee combat
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 1
+      skill: 4
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 35
+      choiceText: (-4 HP) Risque escape
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 28
+    previousObjectIndex: 0
+    type: 0
+    text: "You sneak behind the vampire closer to you and manage to decapitate them.
+      This alerts the other intruder and just as he\u2019s about to shout for help
+      you spring into him, showing your knife into his throat. Jamming the knife
+      back and forth you manage to separate their head from their body. However,
+      the blade is scarified in the process."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 29
+    previousObjectIndex: 0
+    type: 0
+    text: "You see a piece of paper sticking out from the pocket of the intruder\u2019s
+      jacket. You take the paper, hoping it contains useful information you could
+      read through later."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 30
+    previousObjectIndex: 0
+    type: 0
+    text: 'You move to the next room and there are even more intruders in there.
+      Three in this room, four more in other room. You slide out your gun, the last
+      weapon you have on your person.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: 'You move to the next room and there are even more intruders in there.
+      Three in this room, four more in other room. You slide out your gun, the last
+      weapon you have on your person.
+
+'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 31
+      choiceText: ' (Mental + Firearms 5) Defend yourself with your pistol.'
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 5
+      boolIndex: 0
+      attribute: 2
+      skill: 0
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 35
+      choiceText: (-4 HP) Risque escape
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 32
+    previousObjectIndex: 0
+    type: 0
+    text: "You take carful aim to of the three intruders in the room. You\u2019re
+      confident you can get all three of them. You take your shots and, you were
+      right, all three of them fall down. Not dead, one does not get rid of vampires
+      so easily, but out of the action for the time being.\r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 33
+    previousObjectIndex: 0
+    type: 0
+    text: "Now, however, the rest of the intruders know pretty much spot on where
+      you are. You reason it\u2019s time to escape, there\u2019s no honor in unnecessary
+      death. You bolt to the fire escape and out of the house. The intruders, alert
+      to your presence, try their best to unmake you. They shoot at you, getting
+      a few excruciatingly painful hits."
+    isItalic: 0
+    hasReward: 1
+    rewardType: 6
+    rewardSkill: 0
+    rewardValue: 3
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 34
+    previousObjectIndex: 0
+    type: 0
+    text: "With a pure stroke of luck you manage to escape, bleeding, but alive.
+      Weakened, you drag yourself as fast as you can, as far as you can. And either
+      you manage to lose the intruders or they think you\u2019re dead as only after
+      a few blocks you see, hear or smell no kindred.\r\n"
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 22
+    previousObjectIndex: 0
+    type: 0
+    text: ' Pain coursing trough your body you take out the slip of paper you took
+      from one of the intruders and read through it'
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 36
+    previousObjectIndex: 0
+    type: 0
+    text: "You decide that staying and fighting would be futile and decide to risk
+      an escape. You turn around and try to move quietly towards the nearest window.
+      Unfortunately for you one of the intruders barges into the room just as you\u2019re
+      opening the window. You knock the down and a slip of paper falls from their
+      hand. You swiftly take the paper and open the window."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 37
+    previousObjectIndex: 0
+    type: 0
+    text: "The others hear this and you hear commotion throughout the building. Light
+      floods from intruders\u2019 flashlights. You jump, risking the significant
+      fall."
+    isItalic: 1
+    hasReward: 1
+    rewardType: 6
+    rewardSkill: 0
+    rewardValue: 4
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 38
+    previousObjectIndex: 0
+    type: 0
+    text: 'The fall is as displeasurable as you expected, if not more. Alive but
+      severely injured you get up as soon as you can and start limping away. The
+      intruders try to take a few potshots at you but their aim is horrible. '
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 22
+    previousObjectIndex: 0
+    type: 0
+    text: "You try to get away from the heaven as fast as you can, and seem to be
+      successful. Still, it\u2019s not until a few blocks away you allow yourself
+      to stop. The pain is excruciating and pulsating throughout the body. Ignoring
+      that you take out the small slip of paper you managed to take from one of the
+      intruders."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}

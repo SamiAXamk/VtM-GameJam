@@ -1,0 +1,689 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2079db3b4bafb2347854ad7b7802417b, type: 3}
+  m_Name: CheckCrimeScene
+  m_EditorClassIdentifier: 
+  eventId: 4
+  actionPoints: 2
+  boolListIndex: 1
+  eventLocation: 12
+  repeatable: 0
+  mandatory: 1
+  done: 0
+  description: Check Crime Scene
+  eventIcon: {fileID: 0}
+  eventBackgroundImage: {fileID: 21300000, guid: 46c1bfe7089536442b11241ec14c5106, type: 3}
+  eventObjects:
+  - nextObjectIndex: 1
+    previousObjectIndex: 0
+    type: 0
+    text: "(Killing the ghoul of a high standing vampire\u2026 That\u2019s kind of
+      a big deal. It doesn\u2019t \xB4just happen\xB4. There\u2019s got to be something
+      more to this.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 2
+    previousObjectIndex: 0
+    type: 0
+    text: As you stride towards the door the person guarding it eyes you for a moment
+      before giving you a curt nod.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: a60f2da924916ad4d9ed918b38d172d9, type: 3}
+  - nextObjectIndex: 3
+    previousObjectIndex: 0
+    type: 0
+    text: "Guard: \u201CWe\u2019ve been expecting you. Go on in. Look around as much
+      as you like, but don\u2019t touch anything, this IS an active crime scene.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: a60f2da924916ad4d9ed918b38d172d9, type: 3}
+  - nextObjectIndex: 4
+    previousObjectIndex: 0
+    type: 0
+    text: You nod to the guard as you step past him into the space beyond. He follows
+      you inside, staying back beside the door. You notice a stack of badly folded
+      paper sticking out of his back pocket. The apartment is small and filthy, and
+      in a very bad shape. It looks likely the ghoul was living here.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 5
+    previousObjectIndex: 0
+    type: 0
+    text: "The ghoul\u2019s body lies on the floor, badly bruised and battered. There\u2019s
+      large red stains under and around it on the floor, as well as smaller splatter
+      all over the walls."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 6
+    previousObjectIndex: 0
+    type: 0
+    text: The place is absolutely trashed, with bits and pieces of destroyed furniture
+      strewn all around along with strange looking tools and objects. Large tears
+      have been taken out of the wallpaper, and posters on the walls are hanging
+      on by just a corner or two
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 7
+    previousObjectIndex: 0
+    type: 0
+    text: As you keep examining the posters you notice sigils and symbols painted
+      on the walls in red. You are not exactly sure, but you get the feeling they
+      are religious in nature.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "There\u2019s a computer on a small desk in the corner of the room. There\u2019s
+      small splatters of blood staining the screen, but the blinking lights and steady
+      hum of the fans tells you it\u2019s still working."
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 8
+      choiceText: Examine the Body (Mental + Science 3)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 3
+      boolIndex: 0
+      attribute: 2
+      skill: 15
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 9
+      choiceText: Investigate further (Mental + Investigate 3)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 3
+      boolIndex: 0
+      attribute: 2
+      skill: 6
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 14
+      choiceText: Examine the room
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 15
+    previousObjectIndex: 0
+    type: 0
+    text: "You kneel beside the badly damaged, lifeless ghoul. The lacerations alone
+      on the body would be enough for the kill. However between them and the caked
+      blood you notice burns. They don\u2019t seem to be conventional, but rather
+      supernatural in origin, judging by the perfectly symmetrical, almost geometric
+      patterns."
+    isItalic: 1
+    hasReward: 1
+    rewardType: 0
+    rewardSkill: 8
+    rewardValue: 2
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 10
+    previousObjectIndex: 0
+    type: 0
+    text: "(Hmm\u2026 The body\u2019s badly cut up, but at least some of the gashes
+      seem to have been done post-mortem. Someone wants this to look more violent
+      than it actually was.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 11
+    previousObjectIndex: 0
+    type: 0
+    text: "(The computer\u2019s still running. This was a quick hit, the victim was
+      not prepared. Means they likely didn\u2019t delete their stuff either.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 12
+    previousObjectIndex: 0
+    type: 0
+    text: (However, the perp had time to scribble all that weird shit all over the
+      walls, so they must not have been in a hurry to get away. Either they were
+      strong enough to not be afraid, or knew no one could come help the guy.)
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 13
+    previousObjectIndex: 0
+    type: 0
+    text: "(Why would they do that? Must\u2019ve been trying to send a message.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 15
+    previousObjectIndex: 0
+    type: 0
+    text: "(Although they left all of these freaky instruments lying around\u2026
+      Did someone happen by before they were done? Hmm\u2026 These are inquisitor\u2019s
+      tools for sure. If The Church is involved this is bad news.)"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 0
+    rewardSkill: 6
+    rewardValue: 2
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 15
+    previousObjectIndex: 0
+    type: 0
+    text: "(Jeez\u2026 They really did a number on this place. What did the poor
+      fucker do to deserve this kind of a hit?)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "(There must be something more here\u2026)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 16
+      choiceText: Get the guard's notes (Social + Stealth 4)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 0
+      skill: 1
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 24
+      choiceText: "(I could probably try to track down the folks who did the initial
+        investigation, maybe they figured out something I couldn\u2019t\u2026 I wonder
+        who\u2019d know about that?)"
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 17
+    previousObjectIndex: 0
+    type: 0
+    text: You pretend to perk up as if you just heard something, and then walk back
+      up to the guard by the door.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 18
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CDid you hear that? I think someone\u2019s lurking outside.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: a60f2da924916ad4d9ed918b38d172d9, type: 3}
+  - nextObjectIndex: 19
+    previousObjectIndex: 0
+    type: 0
+    text: "Guard: \u201CHuh? I didn\u2019t hear shit.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: a60f2da924916ad4d9ed918b38d172d9, type: 3}
+  - nextObjectIndex: 20
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CFigures, I\u2019m much older than you. Go check it out. Better
+      safe than sorry when dealing with noble business.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: a60f2da924916ad4d9ed918b38d172d9, type: 3}
+  - nextObjectIndex: 21
+    previousObjectIndex: 0
+    type: 0
+    text: "Guard: \u201CFine, fine. I\u2019ll be right back.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: a60f2da924916ad4d9ed918b38d172d9, type: 3}
+  - nextObjectIndex: 22
+    previousObjectIndex: 0
+    type: 0
+    text: As the guard turns away, you swiftly and softly slip the notes out of the
+      guards pocket, and get to examining them right away.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 23
+    previousObjectIndex: 0
+    type: 0
+    text: "(Huh\u2026 The guy\u2019s name was Dylan Callahan. I feel like I\u2019ve
+      heard that somewhere\u2026)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 24
+    previousObjectIndex: 0
+    type: 0
+    text: You quickly hide the note on your person and go about your business.
+    isItalic: 1
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 7
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: "(The computer\u2026)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 25
+      choiceText: Check the computer (Mental + Science 4)
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 4
+      boolIndex: 0
+      attribute: 2
+      skill: 15
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 29
+      choiceText: Look at the computer
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 26
+    previousObjectIndex: 0
+    type: 0
+    text: You walk over to the computer and shake the mouse to get the screen going.
+      The machine seems to be stuck in a bluescreen.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 27
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CHuh\u2026 Let\u2019s see what\u2019s up under the hood\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 28
+    previousObjectIndex: 0
+    type: 0
+    text: You slide the side panel of the computer case open. Examining the insides
+      you quickly notice a memory unit has been nudged loose. You pop it back into
+      place and restart the machine, which now boots up fine.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 33
+    previousObjectIndex: 0
+    type: 0
+    text: "(There\u2019s a calendar entry from last week\u2026 He met up with a \xB4Lucretia
+      Fayette\xB4. I should probably have a little chat with her.)"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 12
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 30
+    previousObjectIndex: 0
+    type: 0
+    text: You walk over to the computer and shake the mouse to get the screen going.
+      The machine seems to be stuck in a bluescreen.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 31
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CFucking piece of shit\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 32
+    previousObjectIndex: 0
+    type: 0
+    text: You kick the side of the computer case with force. The fans go silent and
+      the screen black.
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 33
+    previousObjectIndex: 0
+    type: 0
+    text: "Guard: \u201CHey, stop that!\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 21300000, guid: a60f2da924916ad4d9ed918b38d172d9, type: 3}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 1
+    text: (Is there still something or should I just take my leave?)
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices:
+    - nextObjectIndex: 34
+      choiceText: "Something ain\u2019t right\u2026 (Mental + Investigation 7)"
+      check: 1
+      checkType: 0
+      hidden: 0
+      difficulty: 7
+      boolIndex: 0
+      attribute: 2
+      skill: 6
+      sect: 0
+      predatorType: 0
+    - nextObjectIndex: 37
+      choiceText: Leave
+      check: 0
+      checkType: 0
+      hidden: 0
+      difficulty: 0
+      boolIndex: 0
+      attribute: 0
+      skill: 0
+      sect: 0
+      predatorType: 0
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 35
+    previousObjectIndex: 0
+    type: 0
+    text: "(Ok\u2026 So, a lot of the cuts on the body were done AFTER the guy had
+      already died\u2026 Did they want to make it look like he was tortured? The
+      inquisition tools point that way as well.)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 36
+    previousObjectIndex: 0
+    type: 0
+    text: "(They had enough time to decorate the walls with their shit, but in so
+      much of a hurry they left their tools behind. They\u2019re not in one place
+      either, but strewn around the whole floor\u2026)"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 37
+    previousObjectIndex: 0
+    type: 0
+    text: "(It\u2019s just for show, isn\u2019t it. The Inquisition was never here.
+      This is a god damn setup. But who, and why?)"
+    isItalic: 0
+    hasReward: 1
+    rewardType: 2
+    rewardSkill: 0
+    rewardValue: 8
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 38
+    previousObjectIndex: 0
+    type: 0
+    text: The guard is standing inside, beside the door. You return to him.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: a60f2da924916ad4d9ed918b38d172d9, type: 3}
+  - nextObjectIndex: 39
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CHey, you seen those symbols painted all over the walls? Do
+      you guys know what\u2019s the deal with them?\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: a60f2da924916ad4d9ed918b38d172d9, type: 3}
+  - nextObjectIndex: 40
+    previousObjectIndex: 0
+    type: 0
+    text: "Guard: \u201CI\u2019m not an expert on this sort of thing, don\u2019t
+      know if the investigators are either. I\u2019d check our kind\u2019s library
+      \u2018round here if I were you, here, I\u2019ve got the location for you.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: a60f2da924916ad4d9ed918b38d172d9, type: 3}
+  - nextObjectIndex: 41
+    previousObjectIndex: 0
+    type: 0
+    text: The guard writes something on a small scrap of paper and hands it to you.
+      You put it  away.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 21300000, guid: a60f2da924916ad4d9ed918b38d172d9, type: 3}
+  - nextObjectIndex: 42
+    previousObjectIndex: 0
+    type: 0
+    text: "You: \u201CThanks for your help. See you around.\u201D"
+    isItalic: 0
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 1
+    rightSideCharacter: {fileID: 0}
+  - nextObjectIndex: 0
+    previousObjectIndex: 0
+    type: 0
+    text: You nod at each other as you walk back into the street.
+    isItalic: 1
+    hasReward: 0
+    rewardType: 0
+    rewardSkill: 0
+    rewardValue: 0
+    choices: []
+    playerCharacter: 0
+    rightSideCharacter: {fileID: 0}
